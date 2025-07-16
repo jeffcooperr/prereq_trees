@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 import time
 
-def get_cs_class_names():
+def get_class_info():
     # Initialize the webdriver
     driver = webdriver.Chrome()
     
@@ -23,39 +23,24 @@ def get_cs_class_names():
     # Wait for results to load
     wait = WebDriverWait(driver, 10)
 
-
-
-
     courses = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "[data-group^='code:CS']")))
 
+    course_codes = []
 
+    for course in courses:
+        course.click()
+        print(course.get_attribute('innerHTML'))
+        try:
+            # gets course codes (this takes from the "search results" panel. only courses at the start of a "course" have "result__code", ex: 1210 B-E, only B is appended)
+            # i need to access the text in the right panel instead. not sure how to get there
+            course_codes.append(course.find_element(By.CLASS_NAME, "result__code").text)
+        except:
+            print("No code found")
 
-    print(courses[0].click())
-    time.sleep(5)
-
-
-
-    # # Extract class codes
-    # class_codes = [course.get_attribute("data-group")[-7:] for course in courses]
-    
-    # # Save the data
-    # course_data = {
-    #     'class_codes': class_codes,
-    #     'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    #     'total_classes': len(class_codes)
-    # }
-    
-    # output_file = f"cs_class_codes_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    # with open(output_file, 'w', encoding='utf-8') as f:
-    #     json.dump(course_data, f, indent=2)
-        
-    # print(f"Successfully scraped {len(class_codes)} CS class codes")
-    # print("First few classes:")
-    # for code in class_codes[:5]:
-    #     print(f"- {code}")
-    
+    print(course_codes)
+    print(len(course_codes))
         
     driver.quit()
 
 if __name__ == "__main__":
-    get_cs_class_names()
+    get_class_info()
