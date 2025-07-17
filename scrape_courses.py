@@ -25,20 +25,27 @@ def get_class_info():
 
     courses = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "[data-group^='code:CS']")))
 
-    course_codes = []
+    courses[0].click()
+    # NEXT, SEE IF I CAN DO THIS BY THE DATA-PANEL-ID THING INSTEAD OF THE CLASS NAME, might be more consistent
+    # <div class="panel panel--2x panel--kind-details panel--visible" data-panel-id="2" style="left: 700px;">
+    panel_content = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".panel--kind-details.panel--visible .panel__content")))
+    print(panel_content.get_attribute('innerHTML'))
 
-    for course in courses:
-        course.click()
-        print(course.get_attribute('innerHTML'))
-        try:
-            # gets course codes (this takes from the "search results" panel. only courses at the start of a "course" have "result__code", ex: 1210 B-E, only B is appended)
-            # i need to access the text in the right panel instead. not sure how to get there
-            course_codes.append(course.find_element(By.CLASS_NAME, "result__code").text)
-        except:
-            print("No code found")
+    # course_codes = []
 
-    print(course_codes)
-    print(len(course_codes))
+    # for course in courses:
+    #     course.click()
+    #     print(course.get_attribute('innerHTML'))
+    #     try:
+    #         # gets course codes (this takes from the "search results" panel. only courses at the start of a "course" have "result__code", ex: 1210 B-E, only B is appended)
+    #         # i need to access the text in the right panel instead. not sure how to get there
+    #         course_codes.append(course.find_element(By.CLASS_NAME, "result__code").text)
+
+    #     except:
+    #         print("No code found")
+
+    # print(course_codes)
+    # print(len(course_codes))
         
     driver.quit()
 
