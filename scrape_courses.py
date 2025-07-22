@@ -31,7 +31,7 @@ def get_class_info():
     panel_content = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".panel--kind-details.panel--visible .panel__content")))
     print(panel_content.get_attribute('innerHTML'))
 
-    # course_codes = []
+    course_codes = []
 
     # for course in courses:
     #     course.click()
@@ -51,3 +51,7 @@ def get_class_info():
 
 if __name__ == "__main__":
     get_class_info()
+
+
+# notes
+# send to json
