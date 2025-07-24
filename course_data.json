@@ -1,9 +1,435 @@
-{
-  "course_code": "CS 1080",
-  "section": "Section A, CRN 91695",
-  "title": "Intro to Web Site Dev",
-  "credit_hours": "3",
-  "meeting_info": "TTh 4:25pm-5:40pm in JAMES M JEFFORDS HALL 127 (8/25 to 12/5)",
-  "instructor": "Murat Gungor",
-  "description": "Provides a strong foundation in HTML, CSS, images, beginning web programming, and web design so that the student can create a complete functional web site in a team based final project."
-}
+[
+  {
+    "course_code": "CS 1080",
+    "section": "Section A, CRN 91695",
+    "title": "Intro to Web Site Dev",
+    "credit_hours": "3",
+    "meeting_info": "TTh 4:25pm-5:40pm in JAMES M JEFFORDS HALL 127 (8/25 to 12/5)",
+    "instructor": "Murat Gungor",
+    "description": "Provides a strong foundation in HTML, CSS, images, beginning web programming, and web design so that the student can create a complete functional web site in a team based final project."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section B, CRN 90147",
+    "title": "Computer Programming I",
+    "credit_hours": "3",
+    "meeting_info": "TTh 8:30am-9:45am in VOTEY BLDG 207 (8/25 to 12/5)",
+    "instructor": "Samantha Connolly",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section C, CRN 93418",
+    "title": "Computer Programming I",
+    "credit_hours": "3",
+    "meeting_info": "TTh 10:05am-11:20am in MARSH LIFE SCI 105 (8/25 to 12/5)",
+    "instructor": "Samantha Connolly",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section D, CRN 95515",
+    "title": "Computer Programming I",
+    "credit_hours": "3",
+    "meeting_info": "TTh 1:15pm-2:30pm in VOTEY BLDG 205 (8/25 to 12/5)",
+    "instructor": "Laura Marthaler",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section E, CRN 95516",
+    "title": "Computer Programming I",
+    "credit_hours": "3",
+    "meeting_info": "TTh 10:05am-11:20am in VOTEY BLDG 205 (8/25 to 12/5)",
+    "instructor": "Laura Marthaler",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section F, CRN 92166",
+    "title": "Comp Prog I: for CS majors",
+    "credit_hours": "3",
+    "meeting_info": "TTh 2:50pm-4:05pm in MARSH LIFE SCI 105 (8/25 to 12/5)",
+    "instructor": "Samantha Connolly",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section G, CRN 92681",
+    "title": "Computer Programming I",
+    "credit_hours": "3",
+    "meeting_info": "TTh 4:25pm-5:40pm in LAFAYETTE HALL L403 (8/25 to 12/5)",
+    "instructor": "Brian Lavallee",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section H, CRN 93018",
+    "title": "Computer Programming I",
+    "credit_hours": "3",
+    "meeting_info": "MW 5:05pm-6:20pm in LAFAYETTE HALL L403 (8/25 to 12/5)",
+    "instructor": "Brian Lavallee",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1210",
+    "section": "Section I, CRN 93373",
+    "title": "Comp Prog I: for CS majors",
+    "credit_hours": "3",
+    "meeting_info": "MW 3:30pm-4:45pm in VOTEY BLDG 207 (8/25 to 12/5)",
+    "instructor": "Brian Lavallee",
+    "description": "Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science."
+  },
+  {
+    "course_code": "CS 1320",
+    "section": "Section A, CRN 94171",
+    "title": "Puzzles, Games & Algorithms",
+    "credit_hours": "3",
+    "meeting_info": "MWF 10:50am-11:40am in VOTEY BLDG 303 (8/25 to 12/5)",
+    "instructor": "Lisa Dion",
+    "description": "Introductory computer science through exploration and analysis of mathematical puzzles and games, and the algorithms that handle them. Prerequisite: No credit if taken after CS 2100."
+  },
+  {
+    "course_code": "CS 1500",
+    "section": "Section A, CRN 90913",
+    "title": "Seminar for New CS Majors",
+    "credit_hours": "1",
+    "meeting_info": "F 2:20pm-3:10pm in VOTEY BLDG 105 (8/25 to 12/5)",
+    "instructor": "Samantha Connolly",
+    "description": "A fun and accessible breadth-first introduction to the CS community and curricula at UVM. CS faculty serve as guest lecturers to introduce new CS majors to selected topics covered in upper division UVM CS electives. Prerequisites: Computer Science or Computer Science & Information Systems majors who have not yet completed CS 2100. Co-requisite: CS 1210 or CS 2100."
+  },
+  {
+    "course_code": "CS 1640",
+    "section": "Section A, CRN 90230",
+    "title": "Discrete Structures",
+    "credit_hours": "3",
+    "meeting_info": "MWF 1:10pm-2pm in PERKINS BUILDING 003 (8/25 to 12/5)",
+    "instructor": "Spencer Backman",
+    "description": "Introduction to analytic and formal methods of computer science with practical examples, including analysis or data structures, recursion relations, proof methods, and logic programming. Credit not awarded for both CS 1640 and MATH 2055. Prerequisites: CS 1210 or CS 2100; MATH 1234 or MATH 1242."
+  },
+  {
+    "course_code": "CS 1870",
+    "title": "Intro to Data Science",
+    "credit_hours": "3",
+    "instructor": "Roger Tenore",
+    "description": "Basic techniques of data harvesting and cleaning; association rules, classification and clustering; analyze, manipulate, and visualize data using programming languages. Basic principles of probability and statistical modeling/inference to make meaning out of large datasets. Credit not awarded after STAT 3000 or greater. Cross-listed with: STAT 1870."
+  },
+  {
+    "course_code": "CS 1994",
+    "title": "Teaching Assistantship",
+    "credit_hours": "Varies by section",
+    "description": "Assist in instruction of undergraduate computer science courses under the direct supervision of a faculty member. Instructor permission required."
+  },
+  {
+    "course_code": "CS 2100",
+    "title": "Intermediate Programming",
+    "credit_hours": "Varies by section",
+    "instructor": "Jackie Horton",
+    "description": "Intermediate programming concepts including common data structures, algorithms, style, design, documentation, testing and debugging techniques, and an introduction to object-oriented programming. Prerequisite: CS 1210 with a grade of C- or better."
+  },
+  {
+    "course_code": "CS 2210",
+    "title": "Computer Organization",
+    "credit_hours": "3",
+    "instructor": "Clayton Cafiero",
+    "description": "Introduction to computer system organization including performance, assembly language, machine-level data representation, arithmetic for computers, processor datapath control, memory, and input/output. Includes significant semester project. Cross-listed with: CMPE 2210. Prerequisite: CS 2100."
+  },
+  {
+    "course_code": "CS 2240",
+    "title": "Data Struc & Algorithms",
+    "credit_hours": "3",
+    "description": "Design and implementation of linear structures, trees and graphs. Examples of common algorithmic paradigms. Theoretical and empirical complexity analysis. Sorting, searching, and basic graph algorithms. Prerequisites: CS 2100 with a grade of C- or better; minimum Sophomore standing."
+  },
+  {
+    "course_code": "CS 2250",
+    "title": "Computability& Complexity",
+    "credit_hours": "3",
+    "description": "Formal languages and expressiveness. Turing completeness and Church's Thesis. Decidability and tractability. Complexity classes and theory of NP completeness. Prerequisites: CS 1640 or MATH 2055. Co-requisite: CS 2240."
+  },
+  {
+    "course_code": "CS 2300",
+    "title": "Advanced Programming",
+    "credit_hours": "3",
+    "instructor": "Lisa Dion",
+    "description": "Builds programming maturity and proficiency through significant projects with spiral development, including program specification, design, implementation, debugging, testing, validation, internal and external documentation. Focus on advanced topics including efficiency, profiling, modularity, extensibility, programming paradigms, design patterns, memory management, and generics. Prerequisite: CS 2240."
+  },
+  {
+    "course_code": "CS 2500",
+    "section": "Section A, CRN 94648",
+    "title": "Intro to Database Systems",
+    "credit_hours": "3",
+    "meeting_info": "MW 3:30pm-4:45pm in INNOVATION HALL E204 (8/25 to 12/5)",
+    "instructor": "Jackie Horton",
+    "description": "Serves as a foundational course in modern database systems. Introduces the fundamental concepts and techniques of relational database management, data modeling, relational algebra, structured query language, database design and database management.  Practical experience will be gained through a series of labs and projects. Credit not awarded after CS 3040 or CS 5040. Prerequisites: CS 1210; minimum Sophomore standing. Pre/Co-requisites: CS 1210; minimum Sophomore standing."
+  },
+  {
+    "course_code": "CS 2510",
+    "section": "Section A, CRN 96127",
+    "title": "Intro Artificial Intelligence",
+    "credit_hours": "3",
+    "meeting_info": "MWF 9:40am-10:30am in LAFAYETTE HALL L200 (8/25 to 12/5)",
+    "instructor": "Clayton Cafiero",
+    "description": "An introduction to artificial intelligence including logic and rule-based approaches, heuristic search, A*, IDA*, minimax, alpha/beta pruning, expectiminimax, Markov models and MDPs, decision tree, ensemble learning / random forest, the neural model and simple multi-layer perceptrons. Other topics, if any may vary. Prerequisite: C- or better in CS 2240."
+  },
+  {
+    "course_code": "CS 2870",
+    "title": "Basics of Data Science",
+    "credit_hours": "3",
+    "instructor": "Jacob Martin",
+    "description": "Basic data science techniques, from import to cleaning to visualizing and modeling, using the R language. Machine learning methods include regression, classification and clustering algorithms. Programming methods include user-defined functions. Prerequisite: STAT 1110, STAT 1410, or STAT 2430. Cross-listed with: STAT 2870."
+  },
+  {
+    "course_code": "CS 2920",
+    "section": "Section A, CRN 92054",
+    "title": "SL:Girls Who Code",
+    "credit_hours": "1",
+    "meeting_info": "Sa 9:30am-12:30pm in WATERM 113Q (8/25 to 12/5)",
+    "instructor": "Lisa Dion",
+    "description": "Service learning experience that benefits the University or the Community under the direction of a CS faculty member. Prerequisite: Instructor permission."
+  },
+  {
+    "course_code": "CS 2994",
+    "section": "Section A, CRN 95000",
+    "title": "Teaching Assistantship",
+    "credit_hours": "1 to 3",
+    "instructor": "Lisa Dion",
+    "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion."
+  },
+  {
+    "course_code": "CS 3010",
+    "section": "Section A, CRN 90238",
+    "title": "Operating Systems",
+    "credit_hours": "3",
+    "meeting_info": "MWF 12pm-12:50pm in VOTEY BLDG 207 (8/25 to 12/5)",
+    "instructor": "Jason Hibbeler",
+    "description": "Supervisory and control software for multiprogrammed computer systems. Processes, threads, synchronization, interprocess communication, scheduling, memory management, resource allocation, performance evaluation, secondary storage, case studies. Prerequisites: CS 2300 and CS 2210."
+  },
+  {
+    "course_code": "CS 3040",
+    "section": "Section A, CRN 93083",
+    "title": "Database Systems",
+    "credit_hours": "3",
+    "meeting_info": "MWF 8:30am-9:20am in MARSH LIFE SCI 105 (8/25 to 12/5)",
+    "instructor": "Byung Lee",
+    "description": "Techniques for processing very large collections of data. Secondary storage. Database design and management. Query languages and optimization. Database recovery. Credit not awarded for both CS 3040 and CS 5040. Prerequisite: CS 2240."
+  },
+  {
+    "course_code": "CS 3050",
+    "section": "Section A, CRN 92169",
+    "title": "Software Engineering",
+    "credit_hours": "3",
+    "meeting_info": "MWF 2:20pm-3:10pm in LAFAYETTE HALL L102 (8/25 to 12/5)",
+    "instructor": "Jason Hibbeler",
+    "description": "Treatment of software engineering problems and principles, with a focus on iterative software development. A significant part of the course is devoted to two multi-week team projects. Prerequisite: CS 2300."
+  },
+  {
+    "course_code": "CS 3110",
+    "section": "Section A, CRN 92684",
+    "title": "Data Privacy",
+    "credit_hours": "3",
+    "meeting_info": "MWF 1:10pm-2pm in DEWEY HALL 314 (8/25 to 12/5)",
+    "instructor": "Joseph Near",
+    "description": "Explores the research field of data privacy, including privacy attacks on anonymized data, and formal approaches like k-Anonymity and differential privacy. Applies the theory of data privacy to real problems in programming projects. Credit not awarded for both CS 3110 and CS 5110 Prerequisites: CS 2240, CS 2250."
+  },
+  {
+    "course_code": "CS 3240",
+    "title": "Algorithm Design & Analysis",
+    "credit_hours": "3",
+    "description": "Comprehensive study of algorithms including greedy algorithms, divide and conquer, dynamic programming, graph algorithms and network flow. Computational intractability. Approximation, local search and randomization. Credit not awarded for both CS 3240 and CS 5240. Prerequisite: CS 2240. Pre/co-requisites: Recommended: CS 2250; STAT 2430, or STAT 2510."
+  },
+  {
+    "course_code": "CS 3250",
+    "section": "Section A, CRN 95707",
+    "title": "Programming Languages",
+    "credit_hours": "3",
+    "meeting_info": "TTh 4:25pm-5:40pm in INNOVATION HALL E210 (8/25 to 12/5)",
+    "instructor": ". Staff",
+    "description": "Principles of programming language design and fundamental implementation concepts. Syntax, semantics, and static analysis of programs. Provable properties of programming languages such as type safety. Prerequisites: CS 2240, CS 2250."
+  },
+  {
+    "course_code": "CS 3280",
+    "section": "Section A, CRN 95641",
+    "title": "Human-Computer Interaction",
+    "credit_hours": "3",
+    "meeting_info": "TTh 1:15pm-2:30pm in LAFAYETTE HALL L111 (8/25 to 12/5)",
+    "instructor": "Yuanyuan Feng",
+    "description": "Covers the foundational theories and methods in the interdisciplinary field of human-computer interaction, focuses on the human-centered design and evaluation of user interfaces for various computing systems, as well as introduces a wide range of topics in current human-computer interaction research. Prerequisites: Minimum Junior standing. Pre/Co-requisites: CS 1080 or equivalent experience; completion of WIL1."
+  },
+  {
+    "course_code": "CS 3540",
+    "section": "Section A, CRN 94179",
+    "title": "Machine Learning",
+    "credit_hours": "3",
+    "meeting_info": "TTh 1:15pm-2:30pm in VOTEY BLDG 207 (8/25 to 12/5)",
+    "instructor": "Safwan Wshah",
+    "description": "Introduction to machine learning algorithms, theory, and implementation, including supervised and unsupervised learning; topics typically include linear and logistic regression, learning theory, support vector machines, decision trees, backpropagation artificial neural networks, and an introduction to deep learning. Includes a team-based project. Credit not awarded for both CS 3540 and CS 5540. Prerequisites: STAT 2510 or STAT 5510; MATH 2522 or MATH 2544."
+  },
+  {
+    "course_code": "CS 3737",
+    "section": "Section A, CRN 93742",
+    "title": "Intro to Numerical Analysis",
+    "credit_hours": "3",
+    "meeting_info": "TTh 2:50pm-4:05pm in PERKINS BUILDING 102 (8/25 to 12/5)",
+    "instructor": "Jun Yu",
+    "description": "Error analysis, root-finding, interpolation, least squares, quadrature, linear equations, numerical solution of ordinary differential equations. Credit not awarded for both CS 3737 and CS 5737 or MATH 5737 Prerequisites: MATH 2248; MATH 2522, MATH 2544, or MATH 3201; CS 1210. Cross-listed with: MATH 3737."
+  },
+  {
+    "course_code": "CS 3750",
+    "section": "Section A, CRN 90889",
+    "title": "Mobile App Development",
+    "credit_hours": "3",
+    "meeting_info": "MWF 3:30pm-4:20pm in JAMES M JEFFORDS HALL 112 (8/25 to 12/5)",
+    "instructor": "Jason Hibbeler",
+    "description": "A projects-based course focusing on software development for mobile devices, including the concepts of event-driven programming, GUI design and implementation, utilization of hardware sensors, and client/server applications. A significant part of the course is devoted to a multi-month team development project. Prerequisite: CS 2300, Senior standing. Pre/co-requisites: Recommended: CS 2480 or CS 3040."
+  },
+  {
+    "course_code": "CS 3870",
+    "section": "Section A, CRN 92312",
+    "title": "Data Science I - Pinnacle",
+    "credit_hours": "3",
+    "meeting_info": "TTh 4:25pm-5:40pm in INNOVATION HALL E430 (8/25 to 12/5)",
+    "instructor": "Alice Patania",
+    "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines; Project-based. Credit not awarded for both CS 3870 and CS 5870. Prerequisites: CS 1210; STAT 1410 or STAT 2430; CS 2100 and MATH 2522 or MATH 2544 recommended. Cross-listed with: STAT 3870."
+  },
+  {
+    "course_code": "CS 3920",
+    "title": "Senior Seminar",
+    "credit_hours": "1",
+    "description": "Oral presentations that pertain to the ethical practice of computer science in government, industry, and academia. Topics may include computer security, copyright, and patent law. Prerequisite: Senior standing in Computer Science."
+  },
+  {
+    "course_code": "CS 3930",
+    "section": "Section A, CRN 92314",
+    "title": "Computing Career Preparation",
+    "credit_hours": "1",
+    "meeting_info": "M 5:05pm-5:55pm in MORRILL HALL 010 (8/25 to 12/5)",
+    "instructor": "Jillian Duprey",
+    "description": "Seminar to help students develop necessary skills for becoming computing professionals and exposes them to different computing careers. Topics include job search strategies, preparation for technical interviews, networking, and developing soft skills. Several guest lectures by computing professionals and alumni. Prerequisite: CS 2240."
+  },
+  {
+    "course_code": "CS 3993",
+    "section": "Section A, CRN 96402",
+    "title": "IS:Intro to React",
+    "credit_hours": "2",
+    "meeting_info": "T 8:30am-9:20am in ON CAMPUS SEE NOTES (8/25 to 12/5)",
+    "instructor": "Clayton Cafiero",
+    "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion."
+  },
+  {
+    "course_code": "CS 3994",
+    "title": "Teaching Assistantship",
+    "credit_hours": "1",
+    "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion."
+  },
+  {
+    "course_code": "CS 4996",
+    "title": "Undergraduate Honors Thesis",
+    "credit_hours": "3",
+    "description": "College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion. See description of Honors Thesis Program in the College of EM section of this catalog."
+  },
+  {
+    "course_code": "CS 5040",
+    "section": "Section A, CRN 94078",
+    "title": "Gr Database Systems",
+    "credit_hours": "3",
+    "meeting_info": "MWF 8:30am-9:20am in MARSH LIFE SCI 105 (8/25 to 12/5)",
+    "instructor": "Byung Lee",
+    "description": "Covers the theory and practice of database design and application programming, and basic internals of a database management system. Topics include database concepts, data models and database design, query languages, database programming concepts and languages, files and physical design, query processing and optimization, transaction concepts, concurrency control and recovery, and security and authentication. Credit not awarded for both CS 5040 and CS 3040. Prerequisites: Familiarity with basic data structures, algorithms, discrete mathematics, computer organization; Graduate student."
+  },
+  {
+    "course_code": "CS 5110",
+    "section": "Section A, CRN 93798",
+    "title": "Advanced Data Privacy",
+    "credit_hours": "3",
+    "meeting_info": "MWF 1:10pm-2pm in DEWEY HALL 314 (8/25 to 12/5)",
+    "instructor": "Joseph Near",
+    "description": "Explores the research field of data privacy, including privacy attacks on anonymized data, and formal approaches like k-Anonymity and differential privacy. Applies the theory of data privacy to real problems in programming projects. Prepares students to perform independent research in the field. Credit not awarded for both CS 5110 and CS 3110. Prerequisite: Graduate student."
+  },
+  {
+    "course_code": "CS 5240",
+    "title": "Advanced Algorithm Design",
+    "credit_hours": "3",
+    "description": "Studies how to design and analyze computer program algorithms to solve real-world problems. Begins with a review of the concept of algorithm complexity and basic graph algorithms; and then covers algorithm design approaches such as greedy, divide and conquer, dynamic programming, and network flow; then, computational intractability will be treated. Credit not awarded for both CS 5240 and CS 3240. Prerequisite: Familiarity with data structures and elementary algorithms; Graduate student."
+  },
+  {
+    "course_code": "CS 5540",
+    "section": "Section A, CRN 94180",
+    "title": "Advanced Machine Learning",
+    "credit_hours": "3",
+    "meeting_info": "TTh 1:15pm-2:30pm in VOTEY BLDG 207 (8/25 to 12/5)",
+    "instructor": "Safwan Wshah",
+    "description": "Provides a broad introduction to machine learning and statistical pattern recognition. Topics include: supervised learning (linear regression, logistic regression, neural networks, support vector machines, decision tree, ensemble models, random forest); unsupervised learning (clustering, dimensionality reduction, kernel methods); Also introduces deep learning such as convolutional neural networks and discusses recent applications. Credit not awarded for both CS 5540 and CS 3540. Prerequisites: Knowledge of statistics as from STAT 2510, knowledge of linear algebra as from MATH 2522 or MATH 2544; Graduate student."
+  },
+  {
+    "course_code": "CS 5870",
+    "section": "Section A, CRN 93777",
+    "title": "Data Science I - Experience",
+    "credit_hours": "3",
+    "meeting_info": "TTh 4:25pm-5:40pm in INNOVATION HALL E432 (8/25 to 12/5)",
+    "instructor": ". Staff",
+    "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CS 5870 and CS 3870. Prerequisites: Knowledge of CS 1210 and either STAT 1410 or STAT 2430 required; knowledge of CS 2100 and MATH 2522 or MATH 2544 recommended; Graduate student or Instructor permission. Cross-listed with: STAT 5870, CSYS 5870."
+  },
+  {
+    "course_code": "CS 5990",
+    "section": "Section A, CRN 95644",
+    "title": "Natural Language Processing",
+    "credit_hours": "3",
+    "meeting_info": "TTh 10:05am-11:20am in LAFAYETTE HALL L107 (8/25 to 12/5)",
+    "instructor": "Juniper Lovato",
+    "description": "See Schedule of Courses for specific titles. Subject will vary from year to year. May be repeated for credit with instructor permission."
+  },
+  {
+    "course_code": "CS 6020",
+    "section": "Section A, CRN 92171",
+    "title": "Modeling Complex Systems I",
+    "credit_hours": "3",
+    "meeting_info": "TTh 2:50pm-4:05pm in VOTEY BLDG 209 (8/25 to 12/5)",
+    "instructor": "Laurent Hebert-Dufresne",
+    "description": "Integrative breadth-first introduction to computational methods for modeling complex systems; dynamical systems, numerical methods, cellular automata, agent-based computing, game theory, genetic algorithms, artificial neural networks, and complex networks. Semester team-based project. Pre/Co-requisites: Computer programming in any language, calculus; linear algebra recommended. Cross-listed with: CSYS 6020."
+  },
+  {
+    "course_code": "CS 6391",
+    "title": "Master's Thesis Research",
+    "credit_hours": "Varies by section",
+    "description": "Research for the Master's Thesis."
+  },
+  {
+    "course_code": "CS 6392",
+    "title": "Master's Project Research",
+    "credit_hours": "3",
+    "description": "Research for Master's project. Prerequisite: Department permission."
+  },
+  {
+    "course_code": "CS 6990",
+    "section": "Section A, CRN 95645",
+    "title": "Mind, Morphology, and Machine",
+    "credit_hours": "3",
+    "meeting_info": "MW 8am-9:15am in LAFAYETTE HALL L411 (8/25 to 12/5)",
+    "instructor": "Joshua Bongard",
+    "description": "Subject will vary from year to year. May be repeated for credit with Instructor permission."
+  },
+  {
+    "course_code": "CS 6990",
+    "section": "Section B, CRN 95647",
+    "title": "Computer Security Foundations",
+    "credit_hours": "3",
+    "meeting_info": "TTh 4:25pm-5:40pm in VOTEY BLDG 305 (8/25 to 12/5)",
+    "instructor": "Chris Skalka",
+    "description": "Subject will vary from year to year. May be repeated for credit with Instructor permission."
+  },
+  {
+    "course_code": "CS 6993",
+    "section": "Section A, CRN 96345",
+    "title": "IS:MechanisticInterpretability",
+    "credit_hours": "3",
+    "meeting_info": "F 12pm-12:50pm in ON CAMPUS SEE NOTES (8/25 to 12/5)",
+    "instructor": "Juniper Lovato",
+    "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission."
+  },
+  {
+    "course_code": "CS 7491",
+    "title": "Doctoral Dissertation Research",
+    "credit_hours": "Varies by section",
+    "description": "Research for the Doctoral Dissertation."
+  }
+]

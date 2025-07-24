@@ -8,10 +8,7 @@ from datetime import datetime
 import time
 from bs4 import BeautifulSoup
 
-def get_class_info():
-    # Initialize the webdriver
-    driver = webdriver.Chrome()
-    
+def get_class_info(driver):
     # Navigate to the page
     driver.get("https://soc.uvm.edu/")
     
@@ -26,12 +23,19 @@ def get_class_info():
 
     courses = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "[data-group^='code:CS']")))
 
-    courses[0].click()
+    return courses
 
-    # <div class="panel panel--2x panel--kind-details panel--visible" data-panel-id="2" style="left: 700px;">
+def process_course(course, wait):
+    course.click()
+    # a quick sleep is necessary between each class as some courses were missing/duplicated
+    # could probably be faster than 1 second but it's ok for now
+    time.sleep(1)
     panel_content = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".panel--kind-details.panel--visible .panel__content")))
     html_content = panel_content.get_attribute('innerHTML')
+    return extract_course_data(html_content)
 
+
+def extract_course_data(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     
     # Extract course information
@@ -73,17 +77,32 @@ def get_class_info():
         if desc_content:
             course_data['description'] = desc_content.text.strip()
     
-    # save
-    with open('course_data.json', 'w') as f:
+    return course_data
+
+def save_to_json(course_data, filename='course_data.json'):
+    """Save course data to JSON file"""
+    with open(filename, 'w') as f:
         json.dump(course_data, f, indent=2)
-    
-    print("Data saved to course_data.json")
-        
-    driver.quit()
+    print(f"Data saved to {filename}")
+
 
 if __name__ == "__main__":
-    get_class_info()
-
-
-# notes
-# send to json
+    # Initialize the webdriver
+    driver = webdriver.Chrome()
+    wait = WebDriverWait(driver, 10)
+    
+    courses = get_class_info(driver)
+    all_courses = []
+    
+    for i, course in enumerate(courses):
+        print(f"Processing course {i+1}/{len(courses)}")
+        course_data = process_course(course, wait)
+        if course_data:
+            all_courses.append(course_data)
+    
+    # Save all courses at once
+    if all_courses:
+        save_to_json(all_courses)
+        print(f"Saved {len(all_courses)} courses to course_data.json")
+    
+    driver.quit()
