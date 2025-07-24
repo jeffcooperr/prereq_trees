@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 from datetime import datetime
 import time
+from bs4 import BeautifulSoup
 
 def get_class_info():
     # Initialize the webdriver
@@ -26,26 +27,57 @@ def get_class_info():
     courses = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "[data-group^='code:CS']")))
 
     courses[0].click()
-    # NEXT, SEE IF I CAN DO THIS BY THE DATA-PANEL-ID THING INSTEAD OF THE CLASS NAME, might be more consistent
+
     # <div class="panel panel--2x panel--kind-details panel--visible" data-panel-id="2" style="left: 700px;">
     panel_content = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".panel--kind-details.panel--visible .panel__content")))
-    print(panel_content.get_attribute('innerHTML'))
+    html_content = panel_content.get_attribute('innerHTML')
 
-    course_codes = []
-
-    # for course in courses:
-    #     course.click()
-    #     print(course.get_attribute('innerHTML'))
-    #     try:
-    #         # gets course codes (this takes from the "search results" panel. only courses at the start of a "course" have "result__code", ex: 1210 B-E, only B is appended)
-    #         # i need to access the text in the right panel instead. not sure how to get there
-    #         course_codes.append(course.find_element(By.CLASS_NAME, "result__code").text)
-
-    #     except:
-    #         print("No code found")
-
-    # print(course_codes)
-    # print(len(course_codes))
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Extract course information
+    course_data = {}
+    
+    # Course code and section
+    course_code_elem = soup.find('div', class_='dtl-course-code')
+    if course_code_elem:
+        course_data['course_code'] = course_code_elem.text.strip()
+    
+    section_elem = soup.find('div', class_='dtl-section')
+    if section_elem:
+        course_data['section'] = section_elem.text.strip()
+    
+    # Course title
+    title_elem = soup.find('div', class_='detail-title')
+    if title_elem:
+        course_data['title'] = title_elem.text.strip()
+    
+    # Credit hours
+    hours_elem = soup.find('div', class_='detail-hours_html')
+    if hours_elem:
+        course_data['credit_hours'] = hours_elem.text.replace('Credit Hours:', '').strip()
+    
+    # Meeting info
+    meeting_elem = soup.find('div', class_='meet')
+    if meeting_elem:
+        course_data['meeting_info'] = meeting_elem.text.strip()
+    
+    # Instructor
+    instructor_elem = soup.find('div', class_='instructor-detail')
+    if instructor_elem:
+        course_data['instructor'] = instructor_elem.text.strip()
+    
+    # Description
+    description_elem = soup.find('div', class_='section--description')
+    if description_elem:
+        desc_content = description_elem.find('div', class_='section__content')
+        if desc_content:
+            course_data['description'] = desc_content.text.strip()
+    
+    # save
+    with open('course_data.json', 'w') as f:
+        json.dump(course_data, f, indent=2)
+    
+    print("Data saved to course_data.json")
         
     driver.quit()
 
