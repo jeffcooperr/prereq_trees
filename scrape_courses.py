@@ -147,7 +147,7 @@ def scrape_semester(driver, department, semester):
     
     # Save semester-specific file
     if all_courses:
-        filename = f"{department}_{semester.lower().replace(' ', '_')}_courses.json"
+        filename = f"{department}_{semester.lower().replace(' ', '_')}.json"
         save_to_json(all_courses, filename)
         print(f"Saved {len(all_courses)} courses to {filename}")
     
@@ -167,12 +167,8 @@ if __name__ == "__main__":
     # Scrape Spring courses
     spring_courses = scrape_semester(driver, department, "Spring 2025")
     
-    # combined file
-    all_courses = fall_courses + spring_courses
-    if all_courses:
-        combined_filename = f"{department}_all_courses.json"
-        save_to_json(all_courses, combined_filename)
-        print(f"\nCombined file created: {combined_filename}")
-        print(f"Total courses: {len(all_courses)} ({len(fall_courses)} Fall + {len(spring_courses)} Spring)")
+    print(f"\nScraping complete!")
+    print(f"Fall courses: {len(fall_courses)}")
+    print(f"Spring courses: {len(spring_courses)}")
     
     driver.quit()

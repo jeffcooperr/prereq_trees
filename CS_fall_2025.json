@@ -158,18 +158,20 @@
     "title": "Discrete Structures",
     "credit_hours": "3",
     "meeting_info": "MWF 1:10pm-2pm in PERKINS BUILDING 003 (8/25 to 12/5)",
-    "instructor": "Spencer Backman",
+    "instructor": "Jeffrey Jewell",
     "description": "Introduction to analytic and formal methods of computer science with practical examples, including analysis or data structures, recursion relations, proof methods, and logic programming. Credit not awarded for both CS 1640 and MATH 2055. Prerequisites: CS 1210 or CS 2100; MATH 1234 or MATH 1242.",
     "soc_comments": "Prereqs enforced by the system: (CS 1210 or 2100) and\n(MATH 1234 or 1242);\nOpen to Degree and PACE students",
     "semester": "Fall 2025"
   },
   {
     "course_code": "CS 1870",
+    "section": "Section A, CRN 92324",
     "title": "Intro to Data Science",
     "credit_hours": "3",
+    "meeting_info": "MWF 1:10pm-2pm in VOTEY BLDG 209 (8/25 to 12/5)",
     "instructor": "Roger Tenore",
     "description": "Basic techniques of data harvesting and cleaning; association rules, classification and clustering; analyze, manipulate, and visualize data using programming languages. Basic principles of probability and statistical modeling/inference to make meaning out of large datasets. Credit not awarded after STAT 3000 or greater. Cross-listed with: STAT 1870.",
-    "soc_comments": "Varies by section",
+    "soc_comments": "Cross-listed with STAT 1870 A;\nTotal combined enrollment: 45;\nOpen to Degree and PACE students",
     "semester": "Fall 2025"
   },
   {
@@ -267,7 +269,7 @@
     "section": "Section A, CRN 92054",
     "title": "SL:Girls Who Code",
     "credit_hours": "1",
-    "meeting_info": "Sa 9:30am-12:30pm in WATERM 113Q (8/25 to 12/5)",
+    "meeting_info": "Sa 9:30am-12:30pm in LAFAYETTE HALL L309 (8/25 to 12/5)",
     "instructor": "Lisa Dion",
     "description": "Service learning experience that benefits the University or the Community under the direction of a CS faculty member. Prerequisite: Instructor permission.",
     "section_description": "This is for students who help facilitate the UVM Girls Who Code club on Saturday mornings. We teach local K-12 girls the basics in programming.",
@@ -277,16 +279,19 @@
     "semester": "Fall 2025"
   },
   {
+    "course_code": "CS 2993",
+    "title": "Independent Study",
+    "credit_hours": "Varies by section",
+    "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+    "soc_comments": "Varies by section",
+    "semester": "Fall 2025"
+  },
+  {
     "course_code": "CS 2994",
-    "section": "Section A, CRN 95000",
     "title": "Teaching Assistantship",
     "credit_hours": "1 to 3",
-    "instructor": "Lisa Dion",
     "description": "Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",
-    "section_description": "This section is for students who will serve as a returning Teaching Assistant for a course or courses taught by the instructor listed. Students taking this course will solidify their understanding of the relevant course materials and of the student learning experience by holding office hours, proctoring labs, and/or grading assignments and communicating with the instructor regularly.",
-    "section_expectations": "You will be expected to work 4 hrs per week for each credit hour you register for. You will be held responsible for the duties assigned to you at the beginning of the semester and will be expected to reliably fulfill those expectations to the highest quality.",
-    "evaluation": "Your grade will be determined from the quality of your assigned duties, your time management skills, and communication with the instructor.",
-    "soc_comments": "Instructor permission required;\nCredits: 1-2",
+    "soc_comments": "Varies by section",
     "semester": "Fall 2025"
   },
   {
@@ -359,7 +364,7 @@
     "title": "Programming Languages",
     "credit_hours": "3",
     "meeting_info": "TTh 4:25pm-5:40pm in INNOVATION HALL E210 (8/25 to 12/5)",
-    "instructor": ". Staff",
+    "instructor": "Jennifer Paykin",
     "description": "Principles of programming language design and fundamental implementation concepts. Syntax, semantics, and static analysis of programs. Provable properties of programming languages such as type safety. Prerequisites: CS 2240, CS 2250.",
     "section_description": "The focus of this course is on the design of programming languages (PLs) and general underlying concepts. We will emphasize: \n\nSyntax (form):  What language constructs are desirable, feasible? How do we want to write programs? \n\nSemantics (meaning): How do we precisely define and document what language features should \u201cdo\u201d? \n\nImplementation: How do we implement a language so that its features behave on a computer the way we document/intend them to? \n\nReasoning about programs: well-designed languages allow careful, even formal, thought and reasoning, not just hacking. How can formal reasoning be integrated in PL design and used for programming?\n\nProgram properties, aka Metatheory: How can we define and prove general properties of programs, such as type safety, based on language design? \n\nStatic (compile-time) analysis: Ensures properties of programs, by predicting the meaning of programs based solely on their form.",
     "section_expectations": "Prerequisites: CS 2240, CS 2250. The main course materials aside from lectures will be course notes that summarize main topics and will be posted before each class. These and additional supplementary materials will be posted on blackboard. All materials for the class will be freely available.",
@@ -450,7 +455,7 @@
     "section": "Section A, CRN 92314",
     "title": "Computing Career Preparation",
     "credit_hours": "1",
-    "meeting_info": "M 5:05pm-5:55pm in MORRILL HALL 010 (8/25 to 12/5)",
+    "meeting_info": "W 5:05pm-5:55pm in MORRILL HALL 010 (8/25 to 12/5)",
     "instructor": "Jillian Duprey",
     "description": "Seminar to help students develop necessary skills for becoming computing professionals and exposes them to different computing careers. Topics include job search strategies, preparation for technical interviews, networking, and developing soft skills. Several guest lectures by computing professionals and alumni. Prerequisite: CS 2240.",
     "soc_comments": "Prereqs enforced by the system: CS 2240",
@@ -462,6 +467,25 @@
     "title": "IS:Intro to React",
     "credit_hours": "2",
     "meeting_info": "T 8:30am-9:20am in ON CAMPUS SEE NOTES (8/25 to 12/5)",
+    "instructor": "Clayton Cafiero",
+    "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+    "semester": "Fall 2025"
+  },
+  {
+    "course_code": "CS 3993",
+    "section": "Section B, CRN 96455",
+    "title": "IS: Bioinformatics",
+    "credit_hours": "1 to 18",
+    "instructor": "Laurent Hebert-Dufresne",
+    "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
+    "soc_comments": "This course is a tailored project for a specific student\nsupporting a bioinformatics project of the\nTranslational Global Infectious Diseases Research Center.\nCredits: 5-8",
+    "semester": "Fall 2025"
+  },
+  {
+    "course_code": "CS 3993",
+    "section": "Section C, CRN 96485",
+    "title": "IS:FullstackWebApplication Dev",
+    "credit_hours": "3",
     "instructor": "Clayton Cafiero",
     "description": "A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",
     "semester": "Fall 2025"
@@ -537,7 +561,7 @@
     "title": "Data Science I - Experience",
     "credit_hours": "3",
     "meeting_info": "TTh 4:25pm-5:40pm in INNOVATION HALL E432 (8/25 to 12/5)",
-    "instructor": ". Staff",
+    "instructor": "Sam Zhang",
     "description": "Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CS 5870 and CS 3870. Prerequisites: Knowledge of CS 1210 and either STAT 1410 or STAT 2430 required; knowledge of CS 2100 and MATH 2522 or MATH 2544 recommended; Graduate student or Instructor permission. Cross-listed with: STAT 5870, CSYS 5870.",
     "section_description": "Extracting meaning from data remains one of the most important tasks of science and industry. The Internet and modern computers have given us vast amounts of data, so it is more important than ever to understand how to collect, process, and analyze these data. A picture is worth a thousand words, so visualizations, from scientific plots and infographics to interactive data explorers, are crucial to summarize and communicate new discoveries.",
     "section_expectations": "Learning objectives In this course students will learn:\n1. basic data harvesting and storage with automated computer programs,\n2. data \u201cmunging\u201d or cleaning to process data,\n3. analyzing data with existing methods such as descriptive statistics and visualizations,\n4. developing new, problem-specific measures to explore trends and features in data, and \n5. communicating data-driven results.\n\nParticular emphasis will be placed on nontraditional (non-numeric) data such as networks, text corpora, etc. and on developing good habits for rigorous and reproducible computational science.\n\nProgramming This is a programming-intensive course taught using Python, and homework and projects will use Python (version 3). Python is very popular in industry and is free, easy to learn, and has many useful third-party packages. While you should have prior programming experience (such as UVM\u2019s CS021), experience with Python is not necessary. Early lectures include reviews of Python programming and how to set up your working environment.",
@@ -583,8 +607,28 @@
   },
   {
     "course_code": "CS 6392",
+    "section": "Section A, CRN 96281",
     "title": "Master's Project Research",
     "credit_hours": "3",
+    "instructor": "David Jangraw",
+    "description": "Research for Master's project. Prerequisite: Department permission.",
+    "semester": "Fall 2025"
+  },
+  {
+    "course_code": "CS 6392",
+    "section": "Section B, CRN 96482",
+    "title": "GPU-Accelerated RGs",
+    "credit_hours": "3",
+    "instructor": "Jason Hibbeler",
+    "description": "Research for Master's project. Prerequisite: Department permission.",
+    "semester": "Fall 2025"
+  },
+  {
+    "course_code": "CS 6392",
+    "section": "Section OL1, CRN 96297",
+    "title": "Master's Project Research",
+    "credit_hours": "3",
+    "instructor": "Joshua Bongard",
     "description": "Research for Master's project. Prerequisite: Department permission.",
     "semester": "Fall 2025"
   },
