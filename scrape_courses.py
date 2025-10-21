@@ -16,8 +16,8 @@ def get_class_info(driver, department, semester):
     semester_select = driver.find_element(By.ID, "crit-srcdb")
     semester_select.click()
     
-    if semester == "Spring 2025":
-        spring_option = driver.find_element(By.CSS_SELECTOR, "option[value='202501']")
+    if semester == "Spring 2026":
+        spring_option = driver.find_element(By.CSS_SELECTOR, "option[value='202601']")
         spring_option.click()
     elif semester == "Fall 2025":
         fall_option = driver.find_element(By.CSS_SELECTOR, "option[value='202509']")
@@ -42,7 +42,7 @@ def process_course(course, wait):
     course.click()
     # a quick sleep is necessary between each class as some courses were missing/duplicated
     # could probably be faster than .5 seconds but it's ok for now
-    time.sleep(0.5)
+    time.sleep(0.2)
     panel_content = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".panel--kind-details.panel--visible .panel__content")))
     html_content = panel_content.get_attribute('innerHTML')
     return extract_course_data(html_content)
@@ -165,7 +165,7 @@ if __name__ == "__main__":
     fall_courses = scrape_semester(driver, department, "Fall 2025")
     
     # Scrape Spring courses
-    spring_courses = scrape_semester(driver, department, "Spring 2025")
+    spring_courses = scrape_semester(driver, department, "Spring 2026")
     
     print(f"\nScraping complete!")
     print(f"Fall courses: {len(fall_courses)}")

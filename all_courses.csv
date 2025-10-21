@@ -1,0 +1,396 @@
+course_code,section,title,credit_hours,meeting_info,instructor,description,section_description,section_expectations,evaluation,soc_comments,semester,prerequisites,other_requirements,uncertain
+CS 1080,"Section A, CRN 91695",Intro to Web Site Dev,3,TTh 4:25pm-5:40pm in JAMES M JEFFORDS HALL 127 (8/25 to 12/5),Murat Gungor,"Provides a strong foundation in HTML, CSS, images, beginning web programming, and web design so that the student can create a complete functional web site in a team based final project.","Lays a foundation in website coding with HTML, CSS, JavaScript, images, and basic web design, empowering students to create a functional website.",Assumes no prior experience with programming.,"Quizzes, Active Learning Exercises, Lab Exercises, Projects",Open to Degree and PACE students,Fall and Spring 2025,,['Open to Degree and PACE students'],False
+CS 1210,"Section F, CRN 92166",Comp Prog I: for CS majors,3,TTh 2:50pm-4:05pm in MARSH LIFE SCI 105 (8/25 to 12/5),Sami Connolly,Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science.,Introduction to programming and computer science with Python.,Assumes no prior experience with programming. Student should have high school algebra.,,"Open to CS, CSIS, and DS majors only",Fall 2025,,"['Open to CS, CSIS, and DS majors only']",False
+CS 1210,"Section B, CRN 90147",Computer Programming I,3,TTh 8:30am-9:45am in VOTEY BLDG 207 (8/25 to 12/5),Sami Connolly,Introduction to algorithmic problem solving and computer programming. Designed to provide a foundation for further studies in computer science.,Introduction to programming with Python.,Assumes no prior experience with programming.,"Weekly homework, lab and active learning exercises. Two exams (no final exam). Final project.",Open to Degree and PACE students,Fall and Spring 2025,,['Open to Degree and PACE students'],False
+CS 1320,"Section A, CRN 94171","Puzzles, Games & Algorithms",3,MWF 10:50am-11:40am in VOTEY BLDG 303 (8/25 to 12/5),Lisa Dion,"Introductory computer science through exploration and analysis of mathematical puzzles and games, and the algorithms that handle them. Prerequisite: No credit if taken after CS 2100.","In this course, you will explore computational thinking through the analysis of mathematical puzzles and games, and the algorithms that handle them. Learning objectives include:
+- To engage in productive struggle and data collection to solve common puzzles and understand common mathematical games through computational thinking
+- To understand, appreciate, and communicate various approaches and algorithms to solving the games and puzzles
+- To connect the puzzles and games to real-world applications and transfer the knowledge and understanding to help shape real-world decisions and actions","This course is taught in an active learning style, so class attendance will be crucial. You will be expected to work for 6 hours outside of class each week, per University policy regarding work required for a 3 credit hour course.","This course is taught using a points-based system. Each week a few assignments will be released, with varying formats and point values. Your final grade will be based on the number of points you accumulate by the end of the semester.",Open to Degree and PACE students,Fall and Spring 2025,,['Open to Degree and PACE students'],False
+CS 1500,"Section A, CRN 90913",Seminar for New CS Majors,1,F 2:20pm-3:10pm in VOTEY BLDG 105 (8/25 to 12/5),Sami Connolly,A fun and accessible breadth-first introduction to the CS community and curricula at UVM. CS faculty serve as guest lecturers to introduce new CS majors to selected topics covered in upper division UVM CS electives. Prerequisites: Computer Science or Computer Science & Information Systems majors who have not yet completed CS 2100. Co-requisite: CS 1210 or CS 2100.,"This course is intended to introduce new Computer Science majors to the UVM CS degree program.
+
+Course goals:
+- Build community among CS students and faculty
+- Give students an appreciation of the breadth of CS
+- Excite students about advanced CS electives
+- Help students navigate the various curricular options in CS at UVM
+- Help students begin for a transition to a career in CS","You will be expected to attend each lecture period and complete written assignments outside of class time. You will be expected to work for 2 hours outside of class each week, per University policy regarding work required for a 1-credit-hour course.","Your final grade will be based on pre-class writeups, post-class quizzes, and occasional homework assignments.","CS, CSIS, or Data Science majors only",Fall 2025,,"['Computer Science or Computer Science & Information Systems majors who have not yet completed CS 2100', 'CS, CSIS, or Data Science majors only']",False
+CS 1640,"Section A, CRN 90230",Discrete Structures,3,MWF 1:10pm-2pm in PERKINS BUILDING 003 (8/25 to 12/5),Jeffrey Jewell,"Introduction to analytic and formal methods of computer science with practical examples, including analysis or data structures, recursion relations, proof methods, and logic programming. Credit not awarded for both CS 1640 and MATH 2055. Prerequisites: CS 1210 or CS 2100; MATH 1234 or MATH 1242.",,,,"Prereqs enforced by the system: (CS 1210 or 2100) and
+(MATH 1234 or 1242);
+Open to Degree and PACE students",Fall 2025,"{'AND': [{'OR': ['CS 1210', 'CS 2100']}, {'OR': ['MATH 1234', 'MATH 1242']}]}",['Open to Degree and PACE students'],False
+CS 1870,"Section A, CRN 92324",Intro to Data Science,3,MWF 1:10pm-2pm in VOTEY BLDG 209 (8/25 to 12/5),Roger Tenore,"Basic techniques of data harvesting and cleaning; association rules, classification and clustering; analyze, manipulate, and visualize data using programming languages. Basic principles of probability and statistical modeling/inference to make meaning out of large datasets. Credit not awarded after STAT 3000 or greater. Cross-listed with: STAT 1870.",,,,"Cross-listed with STAT 1870 A;
+Total combined enrollment: 45;
+Open to Degree and PACE students",Fall 2025,,['Open to Degree and PACE students'],False
+CS 1994,,Teaching Assistantship,Varies by section,,,Assist in instruction of undergraduate computer science courses under the direct supervision of a faculty member. Instructor permission required.,,,,Varies by section,Fall and Spring 2025,,['Instructor permission required'],False
+CS 2100,,Intermediate Programming,Varies by section,,Jackie Horton,"Intermediate programming concepts including common data structures, algorithms, style, design, documentation, testing and debugging techniques, and an introduction to object-oriented programming. Prerequisite: CS 1210 with a grade of C- or better.",,,,Varies by section,Fall and Spring 2025,CS 1210,[],False
+CS 2210,,Computer Organization,3,,Clayton Cafiero,"Introduction to computer system organization including performance, assembly language, machine-level data representation, arithmetic for computers, processor datapath control, memory, and input/output. Includes significant semester project. Cross-listed with: CMPE 2210. Prerequisite: CS 2100.",,,,Varies by section,Fall and Spring 2025,CS 2100,[],False
+CS 2240,,Data Struc & Algorithms,3,,,"Design and implementation of linear structures, trees and graphs. Examples of common algorithmic paradigms. Theoretical and empirical complexity analysis. Sorting, searching, and basic graph algorithms. Prerequisites: CS 2100 with a grade of C- or better; minimum Sophomore standing.","You will learn the common data structures for abstract data types and algorithms, including lists, trees, heaps, sorting, hashing, and disjoint set finding/uniting. You will also consider and compare their performances.
+Course goals and objectives:
+1) You will gain knowledge of different data structures and recognize the use cases for each.
+2) You will consider not just whether algorithms function correctly or not, but also their efficiency and performance as the amount of data grows.
+3) You will use the C++ programming language to collect data with and analyze data structures and algorithms.","This class is run lecture-style with practice problems and active learning activities sprinkled throughout. You will be expected to work for 6 hours outside of class each week, per University policy regarding work required for a 3 credit hour course.","Your final grade will be based on quizzes, programming projects, active learning activities, surveys, and a final exam.",Varies by section,Fall and Spring 2025,{'AND': ['CS 2100']},['minimum Sophomore standing'],False
+CS 2250,,Computability& Complexity,3,,,Formal languages and expressiveness. Turing completeness and Church's Thesis. Decidability and tractability. Complexity classes and theory of NP completeness. Prerequisites: CS 1640 or MATH 2055. Co-requisite: CS 2240.,,,,"Prereqs enforced by the system: CS 1640 or MATH 2055;
+Coreq: CS 2240;
+Open to Degree and PACE students",Fall and Spring 2025,"{'OR': ['CS 1640', 'MATH 2055']}",['Open to Degree and PACE students'],False
+CS 2300,,Advanced Programming,3,,Lisa Dion,"Builds programming maturity and proficiency through significant projects with spiral development, including program specification, design, implementation, debugging, testing, validation, internal and external documentation. Focus on advanced topics including efficiency, profiling, modularity, extensibility, programming paradigms, design patterns, memory management, and generics. Prerequisite: CS 2240.","This project-based course is separated into four modules. You will learn the details of C++ through a mixture of guided and open-ended projects, oral/written assignments, and other activities. An emphasis will be put on creativity and collaboration.
+
+Course goals and objectives include:
+1) To master C++ programming.
+2) To expand programming knowledge to projects that require multiple languages.
+3) To explore event-based programming through C++ graphics projects.
+4) To develop the skills necessary to effectively collaborate in teams.","Every three-week module will be themed and will have lectures, active learning activities, and assignments associated with it. You will be expected to work for 6 hours outside of class each week, per University policy regarding work required for a 3 credit hour course.","This course uses a point-based grading system, where you get to choose which assignments you want to complete to earn points towards your final grade.","Prereqs enforced by the system: CS 2240;
+Open to Degree and PACE students",Fall and Spring 2025,CS 2240,['Open to Degree and PACE students'],False
+CS 2500,"Section A, CRN 94648",Intro to Database Systems,3,MW 3:30pm-4:45pm in INNOVATION HALL E204 (8/25 to 12/5),Jackie Horton,"Serves as a foundational course in modern database systems. Introduces the fundamental concepts and techniques of relational database management, data modeling, relational algebra, structured query language, database design and database management.  Practical experience will be gained through a series of labs and projects. Credit not awarded after CS 3040 or CS 5040. Prerequisites: CS 1210; minimum Sophomore standing. Pre/Co-requisites: CS 1210; minimum Sophomore standing.","This course will serve as a foundational course in modern database systems. Students will be introduced to the fundamental concepts and techniques of relational database management, data modeling, relational algebra, structured query language, database design and database management.  The course will make extensive use of Python to interface with SQLite. Practical experience will be gained through a series of labs and projects.  Credit not awarded after CS 3040 or CS5040.
+
+Pre-req:  CS21/CS1210 and sophomore standing.  Strong Python skills will be required.",Completion of CS1210. Sophomore Standing.,,"Prereqs enforced by the system: CS 1210
+Open to degree and PACE students",Fall and Spring 2025,{'AND': ['CS 1210']},"['minimum Sophomore standing', 'Open to degree and PACE students']",False
+CS 2510,,Intro Artificial Intelligence,3,,Clayton Cafiero,"An introduction to artificial intelligence including logic and rule-based approaches, heuristic search, A*, IDA*, minimax, alpha/beta pruning, expectiminimax, Markov models and MDPs, decision tree, ensemble learning / random forest, the neural model and simple multi-layer perceptrons. Other topics, if any may vary. Prerequisite: C- or better in CS 2240.",,,,Prereqs enforced by the system: CS 2240,Fall and Spring 2025,CS 2240,[],False
+CS 2660,"Section OL1, CRN 13197",Cybersecurity Principles,3,,James Eddy,"Introduction to cybersecurity, fundamental security design principles, programming flaws, malicious code, web and database security, cryptography algorithms and hashing functions; overview of computer networks and common network threat vectors. Prerequisites: CS 2210 with a grade of C- or better.",,,,"Prereqs enforced by the system: CS 2210 with a
+grade of C- ;
+Asynchronous Online Course;
+Open to Degree and PACE students",Spring 2026,CS 2210,['Open to Degree and PACE students'],False
+CS 2870,,Basics of Data Science,3,,Jacob Martin,"Basic data science techniques, from import to cleaning to visualizing and modeling, using the R language. Machine learning methods include regression, classification and clustering algorithms. Programming methods include user-defined functions. Prerequisite: STAT 1110, STAT 1410, or STAT 2430. Cross-listed with: STAT 2870.",,,,Varies by section,Fall 2025,"{'OR': ['STAT 1110', 'STAT 1410', 'STAT 2430']}",[],False
+CS 2920,"Section A, CRN 12182",SL:Girls Who Code,1,,Lisa Dion,Service learning experience that benefits the University or the Community under the direction of a CS faculty member. Prerequisite: Instructor permission.,This is for students who help facilitate the UVM Girls Who Code club on Saturday mornings. We teach local K-12 girls the basics in programming.,"You will be expected to attend the club every Saturday, participate in reflections and planning before and after each session, and lead the session a few times during the semester.","You will be evaluated based on attendance, completion of tasks, being a good role model for the girls, lesson planning, and leadership.","Instructor permission required;
+Open to Degree and PACE students",Fall and Spring 2025,,"['Instructor permission', 'Open to Degree and PACE students']",False
+CS 2993,,Independent Study,Varies by section,,,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,Varies by section,Fall 2025,,['Offered at department discretion'],False
+CS 2994,,Teaching Assistantship,1 to 3,,,"Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",,,,Varies by section,Fall and Spring 2025,,['Department consent'],False
+CS 3010,"Section A, CRN 90238",Operating Systems,3,MWF 12pm-12:50pm in VOTEY BLDG 207 (8/25 to 12/5),Jason Hibbeler,"Supervisory and control software for multiprogrammed computer systems. Processes, threads, synchronization, interprocess communication, scheduling, memory management, resource allocation, performance evaluation, secondary storage, case studies. Prerequisites: CS 2300 and CS 2210.","CS 3010 will provide a broad overview of operating systems, focused primarily on Linux.  We will pursue an in-depth investigation of the following topics: the OS kernel and kernel mode; concurrency and threads; synchronization and deadlock;, scheduling algorithms; virtual-memory management; I/O devices; and file-system management.
+
+From this course, students will become proficient in developing system-level programs in C.
+
+The recommended text will be Operating System Concepts: Principles and Practice, 2nd Edition, by Anderson and Dahlin.",Students will learn concepts by creating several C programs on Linux that apply the various concepts from class.  There will be a midterm exam and a final exam; several short Brightspace quizzes covering concepts from the lectures; and in-class practice worksheets.,Course grades will be based on the midterm and final exams; the programming projects; the Brightspace quizzes covering concepts from the lectures; and attendance.,"Prereqs enforced by the system: CS 2210 and CS 2300
+Open to degree and PACE students",Fall and Spring 2025,"{'AND': ['CS 2300', 'CS 2210']}",['Open to degree and PACE students'],False
+CS 3040,"Section A, CRN 93083",Database Systems,3,MWF 8:30am-9:20am in MARSH LIFE SCI 105 (8/25 to 12/5),Byung Lee,Techniques for processing very large collections of data. Secondary storage. Database design and management. Query languages and optimization. Database recovery. Credit not awarded for both CS 3040 and CS 5040. Prerequisite: CS 2240.,"Theory and practice of database design and application programming, and basic internals of a database management system. Specific topics include database concepts, data models and database design, query languages, database programming concepts and languages, files and physical design, query processing and optimization, transaction concepts, concurrency control and recovery, and access control.","Lecture course. 6 to 8 hours of work expected outside the classroom.  Prerequisite: Familiarity with basic data structures, algorithms, discrete mathematics, and computer organization. Required text: Ramez Elmasri and Sham Navathe, Fundamentals of Database Systems (7th edition), Pearson, 2016.","Weekly homework, including written and programming. Class attendance.","Prereqs enforced by the system: CS 2240;
+Colocated with CS 5040 A;
+Total combined enrollment: 45;
+Open to Degree and PACE students",Fall 2025,CS 2240,"['Familiarity with basic data structures', 'algorithms', 'discrete mathematics', 'computer organization', 'Open to Degree and PACE students']",False
+CS 3050,"Section A, CRN 11825",Software Engineering,3,MWF 3:30pm-4:20pm UNASSIGNED (1/12 to 5/1),Jason Hibbeler,"Treatment of software engineering problems and principles, with a focus on iterative software development. A significant part of the course is devoted to two multi-week team projects. Prerequisite: CS 2300.","CS 3050 will present a broad overview of the many activities involved in software engineering.  In particular, we will devote particular attention requirements engineering and to iterative software development.  We will also cover additional topics including design and implementation, verification, evolution, and software maintenance.  Students will learn and make use of automated frameworks for analyzing, testing, and documenting source code.
+
+Students will acquire the skills needed to work constructively in an agile framework (Kanban, Scrum) on a large-scale team project and will learn to use git effectively.
+
+The recommended text is Essentials of Software Engineering, by Tsui, Karam, and Bernal (ISBN 1284106004).","There will be three individual in-class coding challenges in Python, a short team programming project, and large team programming project that will span approximately half the semester.  There will be two exams.  Students must be able to work effectively as part of a team.","Course grades will be based on in-class coding challenges, on the exams, and on the two team projects.  The team projects will count for a significant portion of the course grade.  In addition, students will present material in writing and orally in class, and these presentations will count towards the course grade.  Students will also be evaluated on their ability to work as part of the team.  Class attendance will also count towards the course grade.","Prereqs enforced by the system: CS 2300;
+Project presentation session: Feb 12th, 6-9 PM;
+Open to Degree and PACE students",Spring 2026,CS 2300,['Open to Degree and PACE students'],False
+CS 3060,"Section A, CRN 10577",Evolutionary Robotics,3,TTh 8:30am-9:45am UNASSIGNED (1/12 to 5/1),Joshua Bongard,"Exploration of the automated design of autonomous machines using evolutionary algorithms. Coursework involves reading of research papers, programming assignments and a final project. Credit not awarded for both CS 3060 and CS 5060. Prerequisites: Junior standing and programming experience, or Instructor permission.",,,,"Prereq: Junior standing and programming experience
+or instructor permission; Co-located with CS 5060 A;
+Total combined enrollment: 60;
+Open to Degree and PACE students",Spring 2026,,"['Junior standing', 'programming experience', 'Instructor permission', 'Open to Degree and PACE students']",False
+CS 3110,"Section A, CRN 92684",Data Privacy,3,MWF 1:10pm-2pm in DEWEY HALL 314 (8/25 to 12/5),Joe Near,"Explores the research field of data privacy, including privacy attacks on anonymized data, and formal approaches like k-Anonymity and differential privacy. Applies the theory of data privacy to real problems in programming projects. Credit not awarded for both CS 3110 and CS 5110 Prerequisites: CS 2240, CS 2250.","How can we learn from sensitive data collected from individuals, while protecting the privacy of those individuals?
+
+This question is central to the study of data privacy, and is increasingly relevant with the widespread collection of our personal data. Analysis of this data can lead to important benefits for society, including advances in medicine and public infrastructure, but can also result in privacy breaches that expose our most closely-held secrets.
+
+This course will explore both threats to privacy and solutions to the data privacy problem. We will demonstrate that traditional approaches to protecting privacy, such as anonymization, are subject to powerful attacks that reveal individuals’ sensitive data. We will see that while more recent approaches for protecting privacy, including k-anonymity and l-diversity, are more resistant to these attacks, they are not immune.
+
+Then, we will explore recent formal notions of privacy, including differential privacy. Differential privacy provides a rigorous formal definition of individual privacy that enables a wide range of statistical analyses while protecting privacy. We will explore a number of differentially private algorithms for analytics and machine learning, and learn about the algorithmic building blocks and proof techniques used to develop them.
+
+In addition to learning about the mathematical foundations of differential privacy, we will explore its practical implications. We will learn about existing practical systems for enforcing differential privacy and examine the challenges of building such systems. This course will include programming assignments and an end-of-semester project, in which students are expected to demonstrate both mastery of the concepts we explore and understanding of their practical implications by building their own systems that perform privacy-preserving analyses on real data.","This course will be structured around lectures and a weekly programming assignment. Each lecture will cover concepts in ensuring data privacy; in the corresponding programming assignment, you will implement algorithms corresponding to these concepts. Students should expect to spend 5-6 hours per week outside of class on the weekly programming assignments. The required materials for this course are all freely available online.","Your grade for the course will be determined as follows:
+
+    10 homework assignments (5% each; 50% total)
+    exams (20% total)
+    in-class exercises (20% total)
+    final project (10%)
+
+Homework Assignments
+
+This course will use Python for examples and for programming assignments. Students are expected to be proficient in Python programming. Programming assignments will be distributed and turned in as Jupyter notebooks. See this page for information on installing Jupyter; the Anaconda method is recommended, since it also installs the other libraries we will use in the course.","Prereqs enforced by the system: CS 2240 and CS 2250;
+Co-located with CS 5110 A;
+Total combined enrollment: 70
+Open to degree and PACE students",Fall 2025,"{'AND': ['CS 2240', 'CS 2250']}",['Open to degree and PACE students'],False
+CS 3120,"Section A, CRN 15536",Secure Distributed Computation,3,MWF 10:50am-11:40am UNASSIGNED (1/12 to 5/1),Joe Near,"Techniques for secure computation involving multiple distributed parties, including applied cryptography, homomorphic encryption, secure multiparty computation, and zero-knowledge proof. Applications including Bitcoin and other blockchain systems, encrypted databases, federated learning, and computing on encrypted data. Credit not awarded for both CS 3120 and CS 5120. Prerequisites: CS 2240, CS 2250.","Techniques for secure computation involving multiple distributed parties, including applied cryptography, homomorphic encryption, secure multiparty computation, verified computation, and zero-knowledge proof. Applications including Bitcoin and other blockchain systems, Ethereum and other smart contracts, encrypted databases, federated learning, and computing on encrypted data.
+
+This is a programming-based course, with minimal theory background required. Programming projects may include:
+
+ - Building an encrypted database that runs queries over encrypted data without decrypting it
+ - Building a distributed protocol that computes the average salary among several parties, without revealing any individual's salary
+ - Building a decentralized cryptocurrency, using techniques from blockchain research
+ - Building a decentralized smart contract system
+ - Building a system for distributed machine learning that trains a model without inspecting user data, using federated learning techniques","By the end of this course, you will be able to:
+
+    Describe the common goals of secure computation techniques
+    Define and apply the following concepts:
+        Secure multiparty computation
+        Homomorphic encryption
+        Zero-knowledge proof
+        Distributed ledger
+        Blockchain
+    Build systems that compute on encrypted data
+    Implement protocols for zero-knowledge proof
+    Evaluate the communications cost of a distributed protocol
+    Argue for the security of a distributed protocol","Your grade for the course will be determined as follows:
+
+    11 homework assignments (5% each; 55% total)
+    in-class exercises (25% total)
+    midterm exam (5%)
+    final exam (5%)
+    final project (10%)","Prereqs enforced by the system: CS 2240 and CS 2250;
+Co-located with CS 5120;
+Total combined enrollment: 40",Spring 2026,"{'AND': ['CS 2240', 'CS 2250']}",[],False
+CS 3220,"Section A, CRN 10129",Computer Architecture,3,MWF 1:10pm-2pm UNASSIGNED (1/12 to 5/1),Jason Hibbeler,"Architecture of computing systems. Control unit logic, input/output processors and devices, asynchronous processing, concurrency, parallelism, and memory hierarchies. Credit not awarded for both CS 3220 and CS 5220. Cross-listed with: CMPE 3220. Prerequisite: CMPE 2210 or CS 2210.","CS 3220 will provide a thorough and sophisticated examination of various hardware aspects of modern computers, including: virtual memory; instruction-set architectures; instruction-level parallelism through pipelining; caches and cache coherence; threads; vector processors; GPUs and the CUDA platform; and quantum computing if time allows.",Students will do written exercises; create software programs  that explore different areas of computer hardware; write short assembly-language programs; and write CUDA programs to learn and apply concepts of GPU-based software development.  Students will have the option of using a system in the Deep Green Cluster of the Vermont Advanced Computing Core for the GPU-based development.,"Student grades will be based on the exams, the written assignments, the programming projects, and attendance.","Prereqs enforced by the system: CS 2210 or CMPE 2210;
+Open to Degree and PACE students;
+Cross-listed with CMPE 3220 A; Co-located with CS 5220 A
+and CMPE 5220A;
+Total combined enrollment: 40",Spring 2026,"{'OR': ['CMPE 2210', 'CS 2210']}",['Open to Degree and PACE students'],False
+CS 3240,,Algorithm Design & Analysis,3,,,"Comprehensive study of algorithms including greedy algorithms, divide and conquer, dynamic programming, graph algorithms and network flow. Computational intractability. Approximation, local search and randomization. Credit not awarded for both CS 3240 and CS 5240. Prerequisite: CS 2240. Pre/co-requisites: Recommended: CS 2250; STAT 2430, or STAT 2510.",,,,Varies by section,Fall and Spring 2025,CS 2240,[],False
+CS 3250,"Section A, CRN 95707",Programming Languages,3,TTh 4:25pm-5:40pm in INNOVATION HALL E210 (8/25 to 12/5),Jennifer Paykin,"Principles of programming language design and fundamental implementation concepts. Syntax, semantics, and static analysis of programs. Provable properties of programming languages such as type safety. Prerequisites: CS 2240, CS 2250.","The focus of this course is on the design of programming languages (PLs) and general underlying concepts. We will emphasize: 
+
+Syntax (form):  What language constructs are desirable, feasible? How do we want to write programs? 
+
+Semantics (meaning): How do we precisely define and document what language features should “do”? 
+
+Implementation: How do we implement a language so that its features behave on a computer the way we document/intend them to? 
+
+Reasoning about programs: well-designed languages allow careful, even formal, thought and reasoning, not just hacking. How can formal reasoning be integrated in PL design and used for programming?
+
+Program properties, aka Metatheory: How can we define and prove general properties of programs, such as type safety, based on language design? 
+
+Static (compile-time) analysis: Ensures properties of programs, by predicting the meaning of programs based solely on their form.","Prerequisites: CS 2240, CS 2250. The main course materials aside from lectures will be course notes that summarize main topics and will be posted before each class. These and additional supplementary materials will be posted on blackboard. All materials for the class will be freely available.","Homework for the course will be a combination of written assignments and programming assignments. Written assignments will generally be distributed every 10 to 14 days and may include small programming exercises, while programming assignments will be less frequent but will require more programming effort. All homework solutions are expected to be an original, individual effort. (60% of final grade).
+
+In addition to homework, a midterm and final exam will be conducted (40% of final grade).","Prereqs enforced by the system: CS 2240, CS 2250
+Open to degree and PACE students",Fall 2025,"{'AND': ['CS 2240', 'CS 2250']}",['Open to degree and PACE students'],False
+CS 3280,"Section A, CRN 95641",Human-Computer Interaction,3,TTh 1:15pm-2:30pm in LAFAYETTE HALL L111 (8/25 to 12/5),Yuanyuan Feng,"Covers the foundational theories and methods in the interdisciplinary field of human-computer interaction, focuses on the human-centered design and evaluation of user interfaces for various computing systems, as well as introduces a wide range of topics in current human-computer interaction research. Prerequisites: Minimum Junior standing. Pre/Co-requisites: CS 1080 or equivalent experience; completion of WIL1.","This course fulfills WIL2 (Writing and Information Literacy Tier 2).
+Why I cannot figure out how to use this thing I just bought? Why is this website/app so hard to use? These frustrations arise when systems are not designed with people in mind. This course is centered around one fundamental question: how can we design human-centered computing systems that people find useful and usable?
+
+This course (1) covers the foundational theories and methods in the interdisciplinary field of human-computer interaction (HCI), (2) focuses on the human-centered design and evaluation of user interfaces for various computing systems (e.g., tangible objects, the web, mobile devices, the Internet of Things), as well as (3) introduces a wide range of topics in current HCI research (e.g., social computing, ubiquitous computing, inclusive computing).","The course materials include:
+Textbook: Norman, D. (2013). The Design of Everyday Things: Revised and Expanded Edition (Hard copy recommended; paperback around $15).
+Book chapters, articles, papers, and other online materials by HCI practitioners and researchers (available via UVM Library or online).
+ 
+Students are expected to read assigned course materials before class, submit homework for class discussion before class, participate in class discussion, and engage in various classroom activities. There will be in-class quizzes and a summative exam.
+
+Students are expected to work in groups on their semester-long course projects, where they are expected to apply human-centered methods to (1) identify a specific problem that can be addressed by a new or improved interactive user interface, (2) propose potential design alternatives, (3) evaluate these design alternatives, (4) implement the most appropriate user interface design as a prototype, and (5) report the project outcomes in a written report and an oral presentation.
+
+Students should expect to spend approximately 4 hours a week on coursework outside of class, with additional time on their semester-long course projects.","Evaluations:
+Student grades will be based on: (1)  in-class quizzes, (2) a summative exam, (3) class participation, and (4) several individual and group deliverables for the course project, including written assignments, presentations, and a user interface prototype.","Prereq: CS 1080 or equivalent experience;
+minimum junior standing;
+completion of WIL1
+Open to degree and PACE students",Fall 2025,{'OR': ['CS 1080']},"['Minimum Junior standing', 'completion of WIL1', 'Open to degree and PACE students']",False
+CS 3540,"Section A, CRN 94179",Machine Learning,3,TTh 1:15pm-2:30pm in VOTEY BLDG 207 (8/25 to 12/5),Safwan Wshah,"Introduction to machine learning algorithms, theory, and implementation, including supervised and unsupervised learning; topics typically include linear and logistic regression, learning theory, support vector machines, decision trees, backpropagation artificial neural networks, and an introduction to deep learning. Includes a team-based project. Credit not awarded for both CS 3540 and CS 5540. Prerequisites: STAT 2510 or STAT 5510; MATH 2522 or MATH 2544.","This course offers an introduction to advanced machine learning and statistical pattern recognition algorithms. It includes a wide array of topics, including supervised learning (covering linear regression, logistic regression, neural networks, support vector machines, decision trees, ensemble models, and random forests), as well as unsupervised learning (clustering, dimensionality reduction, and kernel methods). In addition, the course delves into the introduction of deep learning, featuring convolutional neural networks, and explores the latest applications of machine learning. You'll also gain valuable insights and guidance on effectively implementing machine learning algorithms.","Weekly assignments, Term Project and two Mid-term exams.","• Assigned homework (30%)
+• Term Project (30%)
+• Mid term exams (30%). To exams will be given during the semester, no final exam.
+• Class attendance and participation (10%).","Prereqs enforced by the system: STAT 2510 or 5510, and
+MATH 2522 or 2544;
+Co-located with CS 5540 A and
+Cross-listed with CSYS 5990 A and CMPE 3990 A;
+Total combined enrollment: 45;
+Open to Degree and PACE students",Fall and Spring 2025,"{'AND': [{'OR': ['STAT 2510', 'STAT 5510']}, {'OR': ['MATH 2522', 'MATH 2544']}]}",['Open to Degree and PACE students'],False
+CS 3650,"Section A, CRN 15379",Computer Networks,3,TTh 2:50pm-4:05pm UNASSIGNED (1/12 to 5/1),Chris Skalka,Introduction to the theoretical and pragmatic principles and practices of computer networking. Topics include: the Internet; wired and wireless communications protocols; network security protocols. Prerequisite: CS 2240. Cross-listed with: CMPE 3650.,"Description: Introduction to the theoretical and pragmatic principles and practices of computer networking. We focus on the Internet, especially the TCP/IP protocol stack, the world-wide-web, Internet standards, and network security.
+
+Course Topics: 
+
+Basic Networking Concepts
+ - Packet vs. circuit switching
+ - Protocols and service models
+ - Protocol layers
+ - Standards and organizations
+
+Application Layer
+ - Services available to
+ - HTTP
+ - FTP
+ - DNS
+ - Basic socket programming
+
+Transport Layer
+ - Mux and demux
+ - TCP vs. UDP: services provided
+ - Reliable data transport
+ - Go-back-n, selective repeat
+ - Congestion control principles and algorithms
+
+Network Layer
+ - Routing and forwarding
+ - IP datagram format
+ - IP addressing
+ - ICMP
+ - Decentralized routing algorithms: Link State and Distance Vector
+ - Internet ASs and routing
+
+Link Layer
+ - Basic error detection
+ - MAC protocols: CSMA
+
+Network Security
+ - Security properties
+ - Dolev-Yao model
+ - Diffie-Hellman protocol
+ - Certificate formats
+ - TLS
+ - Real-world vulnerabilities and countermeasures
+   + DDoS
+   + Buffer overflow attacks
+   + Heartbleed
+   + Mirai
+
+Advanced Topics: Software Defined Networking
+ - Basic concepts
+ - Language and implementation support
+ - Network federation and security concerns","This course is taught in a lecture and discussion format. Students can expect to work 6-10 hours per week on assigments outside of class, on a combination of written and programming assignments. Required software will be provided, and will work on any platform. The required text for this course is:
+
+Textbook: Computer Networking: A Top-Down Approach. James Kurose,‎ Keith Ross.","- Homework and programming assigments: 60%
+ - In-class exams: 40%, broken down as follows:
+    + Midterm: 15%
+    + Final: 25%
+ - Attendance: Class attendance is mandatory. Attendance will be checked. More than three unexcused absences will result in a 10% reduction of the final grade. Missing more than 8 classes will result in a 50% reduction in the final grade, i.e. failure in the course.","Cross-listed with CMPE 3650 A; Total combined enrollment: 40
+Prereqs enforced by the system: CS 2240",Spring 2026,CS 2240,[],False
+CS 3737,"Section A, CRN 93742",Intro to Numerical Analysis,3,TTh 2:50pm-4:05pm in PERKINS BUILDING 102 (8/25 to 12/5),Jun Yu,"Error analysis, root-finding, interpolation, least squares, quadrature, linear equations, numerical solution of ordinary differential equations. Credit not awarded for both CS 3737 and CS 5737 or MATH 5737 Prerequisites: MATH 2248; MATH 2522, MATH 2544, or MATH 3201; CS 1210. Cross-listed with: MATH 3737.","This course covers introductory materials on numerical analysis. Topics include: solution of nonlinear equations, solving systems of linear equations, approximating functions, numerical differentiation and integration, and numerical solution of ODEs. Some applications to physics and engineering will also be covered.","This course is in lecture format. Homework (or computer project) will be assigned for almost every class. Students should have knowledge of calculus III (multivariable calculus), linear algebra, and computer programming before taking this class.","Grades are based on midterm and final exams, quizzes, and homework/computer projects.","Prereqs enforced by the system: CS 1210 and MATH 2248 and
+(MATH 2522 or 2544 or 3201);
+Cross listed with MATH 3737;
+Total combined enrollment: 35",Fall 2025,"{'AND': ['MATH 2248', {'OR': ['MATH 2522', 'MATH 2544', 'MATH 3201']}, 'CS 1210']}",[],False
+CS 3750,"Section A, CRN 90889",Mobile App Development,3,MWF 3:30pm-4:20pm in JAMES M JEFFORDS HALL 112 (8/25 to 12/5),Jason Hibbeler,"A projects-based course focusing on software development for mobile devices, including the concepts of event-driven programming, GUI design and implementation, utilization of hardware sensors, and client/server applications. A significant part of the course is devoted to a multi-month team development project. Prerequisite: CS 2300, Senior standing. Pre/co-requisites: Recommended: CS 2480 or CS 3040.","CS 3750 will provide a broad overview of iOS and Swift development, including UI development, interaction with the web, the camera, maps, and other capabilities of iOS devices.
+
+From this course, students will become proficient in developing simple iOS applications using the Swift programming language and the SwiftUI development framework.
+
+It is best to have access to a computer running macOS, but it's also possible to use the paid service macincloud.com for the iOS development in the course.  CEMS will provide reimbursement for students using this service.","The instructor will discuss and elaborate on the material from the text in class.  Students will work in teams on a semester-long project for a stakeholder who might be a classmate or someone from the University community or someone from outside of the University community.
+
+Students will learn concepts by completing several individual/pair assignments and by working on their semester-long team project.",Student grades will be based on the individual/pair assignments and the team project and on attendance.,"Prereqs enforced by the system: CS 2300;
+Open to Degree and PACE students;
+Project Proposals: Thursday, Sept 18th, 6:00-9:00 PM",Fall 2025,{'AND': ['CS 2300']},"['Senior standing', 'Open to Degree and PACE students']",False
+CS 3870,"Section A, CRN 92312",Data Science I - Pinnacle,3,TTh 4:25pm-5:40pm in INNOVATION HALL E430 (8/25 to 12/5),Alice Patania,"Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines; Project-based. Credit not awarded for both CS 3870 and CS 5870. Prerequisites: CS 1210; STAT 1410 or STAT 2430; CS 2100 and MATH 2522 or MATH 2544 recommended. Cross-listed with: STAT 3870.",,,,"Prereqs enforced by the system: CS 1210 and
+(STAT 1410 or 2430);
+Cross listed with STAT 3870 A;
+Total combined enrollment: 40
+Open to degree and PACE students",Fall and Spring 2025,"{'AND': ['CS 1210', {'OR': ['STAT 1410', 'STAT 2430']}, 'CS 2100', {'OR': ['MATH 2522', 'MATH 2544']}]}",['Open to degree and PACE students'],False
+CS 3920,,Senior Seminar,1,,Lisa Dion,"Oral presentations that pertain to the ethical practice of computer science in government, industry, and academia. Topics may include computer security, copyright, and patent law. Prerequisite: Senior standing in Computer Science.","This course explores ethics at the intersection of society and technology.
+Course goals and objectives:
+1) You will explore the ethical dilemmas and societal impacts of computer technologies. 
+2) You will write about events and dilemmas related to technology and society. 
+3) You will participate in discussions regarding these topics.
+4) You will participate in service that helps someone outside of Computer Science learn about technology.","You will be expected to attend class regularly and participate in discussions. You will work with a team to lead one of the discussions. You will be expected to work for 2 hours outside of class each week, per University policy regarding work required for a 1 credit hour course.","Grading is based on participating in debates and discussions, writing weekly essays, doing a service experience, and completing other occasional assignments.",CS or CSIS senior students only,Fall and Spring 2025,,"['Senior standing in Computer Science', 'CS or CSIS senior students only']",False
+CS 3930,"Section A, CRN 92314",Computing Career Preparation,1,W 5:05pm-5:55pm in MORRILL HALL 010 (8/25 to 12/5),Jill Duprey,"Seminar to help students develop necessary skills for becoming computing professionals and exposes them to different computing careers. Topics include job search strategies, preparation for technical interviews, networking, and developing soft skills. Several guest lectures by computing professionals and alumni. Prerequisite: CS 2240.",,,,Prereqs enforced by the system: CS 2240,Fall and Spring 2025,CS 2240,[],False
+CS 3993,"Section A, CRN 96402",IS:Intro to React,2,T 8:30am-9:20am in ON CAMPUS SEE NOTES (8/25 to 12/5),Clayton Cafiero,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,,Fall 2025,,['Offered at department discretion'],False
+CS 3993,"Section B, CRN 96455",IS: Bioinformatics,1 to 18,,Laurent Hebert-Dufresne,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,"This course is a tailored project for a specific student
+supporting a bioinformatics project of the
+Translational Global Infectious Diseases Research Center.
+Credits: 5-8",Fall 2025,,['Offered at department discretion'],False
+CS 3993,"Section C, CRN 96485",IS:FullstackWebApplication Dev,3,,Clayton Cafiero,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,,Fall 2025,,['Offered at department discretion'],False
+CS 3993,"Section D, CRN 96517",Independent Study,3,,Lisa Dion,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,Instructor permission required,Fall 2025,,"['Instructor permission required', 'Offered at department discretion']",False
+CS 3993,"Section E, CRN 96530",IS:Comp Social Science,3,,Chris Danforth,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,,Fall 2025,,['Offered at department discretion'],False
+CS 3993,"Section F, CRN 96531",IS:Graph Editing Algorithms,3,M 8:30am-9:20am in ON CAMPUS SEE NOTES (8/25 to 12/5),Brian Lavallee,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion.",,,,Instructor permission required,Fall 2025,,"['Instructor permission required', 'Offered at department discretion']",False
+CS 3994,"Section A, CRN 14971",Teaching Assistantship,1,,Jackie Horton,"Undergraduate student service as a teaching assistant, usually in an introductory-level course in the discipline, for which credit is awarded. Offered at department discretion.",,,,,Fall and Spring 2025,,['Department consent'],False
+CS 4996,,Undergraduate Honors Thesis,3,,,"College honors thesis or other department/program honors, under the supervision of a faculty member. Offered at department discretion. See description of Honors Thesis Program in the College of EM section of this catalog.",,,,Varies by section,Fall 2025,,['Department consent'],False
+CS 5040,"Section A, CRN 94078",Gr Database Systems,3,MWF 8:30am-9:20am in MARSH LIFE SCI 105 (8/25 to 12/5),Byung Lee,"Covers the theory and practice of database design and application programming, and basic internals of a database management system. Topics include database concepts, data models and database design, query languages, database programming concepts and languages, files and physical design, query processing and optimization, transaction concepts, concurrency control and recovery, and security and authentication. Credit not awarded for both CS 5040 and CS 3040. Prerequisites: Familiarity with basic data structures, algorithms, discrete mathematics, computer organization; Graduate student.","Theory and practice of database design and application programming, and basic internals of a database management system. Specific topics include database concepts, data models and database design, query languages, database programming concepts and languages, files and physical design, query processing and optimization, transaction concepts, concurrency control and recovery, and access control.","Lecture course. 6 to 8 hours of work expected outside the classroom.  Prerequisite: Familiarity with basic data structures, algorithms, discrete mathematics, and computer organization. Required text: Ramez Elmasri and Sham Navathe, Fundamentals of Database Systems (7th edition), Pearson, 2016.","Weekly homework, including written and programming. Project. Class attendance.","Colocated with CS 3040 A;
+Total combined enrollment: 45
+Open to degree and PACE students",Fall 2025,,"['Graduate student', 'Open to degree and PACE students']",False
+CS 5060,"Section A, CRN 13202",Advanced Evolutionary Robotics,3,TTh 8:30am-9:45am UNASSIGNED (1/12 to 5/1),Joshua Bongard,"Explores the automated design of autonomous machines using evolutionary algorithms. Covers relevant topics in evolutionary computation, artificial neural networks, robotics, simulation and xenobots. Students complete weekly programming assignments, formulate research a research hypothesis, and use their system to test that hypothesis. Credit not awarded for both CS 5060 and CS 3060. Prerequisite: Graduate student.",,,,"Graduate students only;
+Co-located with CS 3060A;
+Total combined enrollment: 60",Spring 2026,,"['Graduate student', 'Graduate students only']",False
+CS 5110,"Section A, CRN 93798",Advanced Data Privacy,3,MWF 1:10pm-2pm in DEWEY HALL 314 (8/25 to 12/5),Joe Near,"Explores the research field of data privacy, including privacy attacks on anonymized data, and formal approaches like k-Anonymity and differential privacy. Applies the theory of data privacy to real problems in programming projects. Prepares students to perform independent research in the field. Credit not awarded for both CS 5110 and CS 3110. Prerequisite: Graduate student.","How can we learn from sensitive data collected from individuals, while protecting the privacy of those individuals?
+
+This question is central to the study of data privacy, and is increasingly relevant with the widespread collection of our personal data. Analysis of this data can lead to important benefits for society, including advances in medicine and public infrastructure, but can also result in privacy breaches that expose our most closely-held secrets.
+
+This course will explore both threats to privacy and solutions to the data privacy problem. We will demonstrate that traditional approaches to protecting privacy, such as anonymization, are subject to powerful attacks that reveal individuals’ sensitive data. We will see that while more recent approaches for protecting privacy, including k-anonymity and l-diversity, are more resistant to these attacks, they are not immune.
+
+Then, we will explore recent formal notions of privacy, including differential privacy. Differential privacy provides a rigorous formal definition of individual privacy that enables a wide range of statistical analyses while protecting privacy. We will explore a number of differentially private algorithms for analytics and machine learning, and learn about the algorithmic building blocks and proof techniques used to develop them.
+
+In addition to learning about the mathematical foundations of differential privacy, we will explore its practical implications. We will learn about existing practical systems for enforcing differential privacy and examine the challenges of building such systems. This course will include programming assignments and an end-of-semester project, in which students are expected to demonstrate both mastery of the concepts we explore and understanding of their practical implications by building their own systems that perform privacy-preserving analyses on real data.","This course will be structured around lectures and a weekly programming assignment. Each lecture will cover concepts in ensuring data privacy; in the corresponding programming assignment, you will implement algorithms corresponding to these concepts. Students should expect to spend 5-6 hours per week outside of class on the weekly programming assignments. The required materials for this course are all freely available online.","Your grade for the course will be determined as follows:
+
+    10 homework assignments (5% each; 50% total)
+    exams (20% total)
+    in-class exercises (20% total)
+    final project (10%)
+
+Homework Assignments
+
+This course will use Python for examples and for programming assignments. Students are expected to be proficient in Python programming. Programming assignments will be distributed and turned in as Jupyter notebooks. See this page for information on installing Jupyter; the Anaconda method is recommended, since it also installs the other libraries we will use in the course.","Prereq: Graduate student;
+Co-located with CS 3110 A;
+Total combined enrollment: 70
+Open to degree and PACE students",Fall 2025,,"['Graduate student', 'Open to degree and PACE students']",False
+CS 5120,"Section A, CRN 15537",Adv Secure Distributed Comput,3,MWF 10:50am-11:40am UNASSIGNED (1/12 to 5/1),Joe Near,"Techniques for secure computation involving multiple distributed parties, including applied cryptography, homomorphic encryption, secure multiparty computation, and zero-knowledge proof. Applications including Bitcoin and other blockchain systems, encrypted databases, federated learning, and computing on encrypted data. Credit not awarded for both CS 5120 and CS 3120. Prerequisites: Proficiency in Python programming; familiarity with LaTeX typesetting system; Graduate student.","Techniques for secure computation involving multiple distributed parties, including applied cryptography, homomorphic encryption, secure multiparty computation, verified computation, and zero-knowledge proof. Applications including Bitcoin and other blockchain systems, Ethereum and other smart contracts, encrypted databases, federated learning, and computing on encrypted data.
+
+This is a programming-based course, with minimal theory background required. Programming projects may include:
+
+ - Building an encrypted database that runs queries over encrypted data without decrypting it
+ - Building a distributed protocol that computes the average salary among several parties, without revealing any individual's salary
+ - Building a decentralized cryptocurrency, using techniques from blockchain research
+ - Building a decentralized smart contract system
+ - Building a system for distributed machine learning that trains a model without inspecting user data, using federated learning techniques","By the end of this course, you will be able to:
+
+    Describe the common goals of secure computation techniques
+    Define and apply the following concepts:
+        Secure multiparty computation
+        Homomorphic encryption
+        Zero-knowledge proof
+        Distributed ledger
+        Blockchain
+    Build systems that compute on encrypted data
+    Implement protocols for zero-knowledge proof
+    Evaluate the communications cost of a distributed protocol
+    Argue for the security of a distributed protocol","Your grade for the course will be determined as follows:
+
+    11 homework assignments (5% each; 55% total)
+    in-class exercises (25% total)
+    midterm exam (5%)
+    final exam (5%)
+    final project (10%)","Familiarity with topics of data structures and computability
+as would come from CS 2240 and CS 2250;
+Graduate student standing required;
+Co-located with CS 3120;
+Total combined enrollment: 40",Spring 2026,,"['Proficiency in Python programming', 'familiarity with LaTeX typesetting system', 'Graduate student']",False
+CS 5220,"Section A, CRN 13210",Advanced Computer Architecture,3,MWF 1:10pm-2pm UNASSIGNED (1/12 to 5/1),Jason Hibbeler,"Provides a thorough and sophisticated examination of various hardware aspects of modern computers, including: virtual memory, instruction-set architectures, instruction-level parallelism through pipelining, caches and cache coherence, threads, vector processors, and GPUs. Prerequisites: Familiarity with topics of computer organization as would come from the equivalent of CS 2210 or CMPE 2210; Graduate student. Credit not awarded for both CS 5220 and CS 3220 or CMPE 3220. Cross-listed with: CMPE 5220.","CS 5220 will provide a thorough and sophisticated examination of various hardware aspects of modern computers, including: virtual memory; instruction-set architectures; instruction-level parallelism through pipelining; caches and cache coherence; threads; vector processors; GPUs and the CUDA platform; and quantum computing if time allows.",Students will do written exercises; create software programs  that explore different areas of computer hardware; write short assembly-language programs; and write CUDA programs to learn and apply concepts of GPU-based software development.  Students will have the option of using a system in the Deep Green Cluster of the Vermont Advanced Computing Core for the GPU-based development.,"Student grades will be based on the exams, the written assignments, the programming projects, and attendance.","Familiarity with topics of computer organization as would
+come from the equivalent of CS 2210;
+Graduate student standing;
+Cross-listed with CMPE 5220 A; Co-located with CS 3220 A
+and CMPE 3220 A;
+Total combined enrollment: 40",Spring 2026,,['Graduate student standing'],False
+CS 5240,,Advanced Algorithm Design,3,,,"Studies how to design and analyze computer program algorithms to solve real-world problems. Begins with a review of the concept of algorithm complexity and basic graph algorithms; and then covers algorithm design approaches such as greedy, divide and conquer, dynamic programming, and network flow; then, computational intractability will be treated. Credit not awarded for both CS 5240 and CS 3240. Prerequisite: Familiarity with data structures and elementary algorithms; Graduate student.",,,,Varies by section,Fall and Spring 2025,,"['Familiarity with data structures and elementary algorithms', 'Graduate student']",False
+CS 5540,"Section A, CRN 94180",Advanced Machine Learning,3,TTh 1:15pm-2:30pm in VOTEY BLDG 207 (8/25 to 12/5),Safwan Wshah,"Provides a broad introduction to machine learning and statistical pattern recognition. Topics include: supervised learning (linear regression, logistic regression, neural networks, support vector machines, decision tree, ensemble models, random forest); unsupervised learning (clustering, dimensionality reduction, kernel methods); Also introduces deep learning such as convolutional neural networks and discusses recent applications. Credit not awarded for both CS 5540 and CS 3540. Prerequisites: Knowledge of statistics as from STAT 2510, knowledge of linear algebra as from MATH 2522 or MATH 2544; Graduate student.","This course offers an introduction to advanced machine learning and statistical pattern recognition algorithms. It includes a wide array of topics, including supervised learning (covering linear regression, logistic regression, neural networks, support vector machines, decision trees, ensemble models, and random forests), as well as unsupervised learning (clustering, dimensionality reduction, and kernel methods). In addition, the course delves into the introduction of deep learning, featuring convolutional neural networks, and explores the latest applications of machine learning. You'll also gain valuable insights and guidance on effectively implementing machine learning algorithms.","Weekly assignments, Term Project and two Mid-term exams.","• Assigned homework (25%)
+• Term Project (35%)
+• Mid term exams (30%). To exams will be given during the semester, no final exam.
+• Class attendance and participation (10%).","Prereqs enforced by the system:STAT 2510 & Math 2522 or 2544
+Co-located with CS 3540 A and CMPE 3990 A;
+Cross-listed with CSYS 5990;
+Total combined enrollment: 45;
+Open to Degree and PACE students",Fall and Spring 2025,"{'AND': ['STAT 2510', {'OR': ['MATH 2522', 'MATH 2544']}]}","['Graduate student', 'Open to Degree and PACE students']",False
+CS 5870,"Section A, CRN 93777",Data Science I - Experience,3,TTh 4:25pm-5:40pm in INNOVATION HALL E432 (8/25 to 12/5),Sam Zhang,"Data harvesting, cleaning, and summarizing; working with non-traditional, non-numeric data (social network, natural language textual data, etc.); scientific visualization; advanced data pipelines with a practical focus on real datasets and developing good habits for rigorous and reproducible computational science; Project-based. Credit not awarded for both CS 5870 and CS 3870. Prerequisites: Knowledge of CS 1210 and either STAT 1410 or STAT 2430 required; knowledge of CS 2100 and MATH 2522 or MATH 2544 recommended; Graduate student or Instructor permission. Cross-listed with: STAT 5870, CSYS 5870.","Extracting meaning from data remains one of the most important tasks of science and industry. The Internet and modern computers have given us vast amounts of data, so it is more important than ever to understand how to collect, process, and analyze these data. A picture is worth a thousand words, so visualizations, from scientific plots and infographics to interactive data explorers, are crucial to summarize and communicate new discoveries.","Learning objectives In this course students will learn:
+1. basic data harvesting and storage with automated computer programs,
+2. data “munging” or cleaning to process data,
+3. analyzing data with existing methods such as descriptive statistics and visualizations,
+4. developing new, problem-specific measures to explore trends and features in data, and 
+5. communicating data-driven results.
+
+Particular emphasis will be placed on nontraditional (non-numeric) data such as networks, text corpora, etc. and on developing good habits for rigorous and reproducible computational science.
+
+Programming This is a programming-intensive course taught using Python, and homework and projects will use Python (version 3). Python is very popular in industry and is free, easy to learn, and has many useful third-party packages. While you should have prior programming experience (such as UVM’s CS021), experience with Python is not necessary. Early lectures include reviews of Python programming and how to set up your working environment.","Grades 35% for homework, 15% for quizzes, 15% for each of two midterm projects, 20% for final project and presentation.","Prereqs:Graduate student or instructor permission;
+Knowledge of CS 1210 and either STAT 1410 or STAT 2430
+assumed; Knowledge of CS 2100 and MATH 2522 or MATH 2544
+strongly recommended;
+Cross-listed with CSYS / STAT 5870;
+Total combined enrollment: 30
+Open to degree and PACE students",Fall and Spring 2025,"{'AND': ['CS 1210', {'OR': ['STAT 1410', 'STAT 2430']}]}","['Graduate student or Instructor permission', 'Open to degree and PACE students']",False
+CS 5990,"Section A, CRN 95644",Natural Language Processing,3,TTh 10:05am-11:20am in LAFAYETTE HALL L107 (8/25 to 12/5),Juniper Lovato,See Schedule of Courses for specific titles. Subject will vary from year to year. May be repeated for credit with instructor permission.,"This course provides a comprehensive, breadth-first introduction to natural language processing (NLP), an interdisciplinary field at the intersection of computer science, linguistics, and artificial intelligence. Students will explore both classical approaches and modern deep learning techniques, including large language models, through an integrative and hands-on learning experience. The course is project-based, emphasizing practical engagement with real-world textual datasets and the development of strong research practices for rigorous research projects. Prerequisites: Junior standing and programming experience in Python, or instructor permission. Cross-listed with CSYS 5990 B.","This course will be structured around lectures, weekly assignments, and a final project. Each lecture will introduce key concepts in natural language processing, and the corresponding assignments and the final project will involve implementing these concepts.","Grades will be determined as follows:
+Homework assignments (30% total)
+Exams (30% total)
+Class participation (10% total)
+Final project (30%)
+
+Homework Assignments: This course will use Python for in-class demonstrations, final projects, and programming assignments. Students are expected to be proficient in Python programming for this course. Programming assignments are required to be submitted using Jupyter notebooks.","Junior standing and programming experience in python;
+or instructor permission; Cross-listed with CSYS 5990 B;
+Total combined enrollment: 30",Fall 2025,,"['Junior standing', 'programming experience in Python', 'instructor permission']",False
+CS 6020,"Section A, CRN 92171",Modeling Complex Systems I,3,TTh 2:50pm-4:05pm in VOTEY BLDG 209 (8/25 to 12/5),Laurent Hebert-Dufresne,"Integrative breadth-first introduction to computational methods for modeling complex systems; dynamical systems, numerical methods, cellular automata, agent-based computing, game theory, genetic algorithms, artificial neural networks, and complex networks. Semester team-based project. Pre/Co-requisites: Computer programming in any language, calculus; linear algebra recommended. Cross-listed with: CSYS 6020.","Integrative breadth-first introduction to computational methods for modeling complex systems; dynamical systems, numerical methods, cellular automata, complex networks, game theory and agent-based models. Prerequisite: Graduate standing, computer programming in python, basic calculus, and statistics are required, linear algebra recommended.","This course combines lecture and discussion formats along with recorded supporting material. On top of occasional assignments in the first half of the course, students should expect weekly readings outside of class, with additional time for a final team project. We use the following textbook as complementary text: ""Introduction to the Modeling and Analysis of Complex Systems"" by Hiroki Sayama.","Grades are based on class participation, biweekly assignments over the first half of the semester, weekly quizzes on readings, and a final team project.","Graduate standing only;
+Open to Degree and PACE students;
+Cross listed with CSYS 6020 A;
+Total combined enrollment: 45",Fall 2025,,"['Graduate standing', 'Open to Degree and PACE students']",False
+CS 6021,"Section A, CRN 15785",Modeling Complex Systems II,3,TTh 2:50pm-4:05pm UNASSIGNED (1/12 to 5/1),Laurent Hebert-Dufresne,"Deep dive in state-of-the-art mathematical and computational methods for modeling complex systems; model theory, branching processes, probability generating functions, message passing, master equations, event-driven simulations, Gillespie algorithms, composition-rejection algorithms. Prerequisites: CS 6020 or CSYS 6020. Cross-listed with: CSYS 6021.",,,,Prereqs enforced by the system: CS 6020 or CSYS 6020,Spring 2026,"{'OR': ['CS 6020', 'CSYS 6020']}",[],False
+CS 6040,"Section A, CRN 15231",Data Mining,3,TTh 8:30am-9:45am UNASSIGNED (1/12 to 5/1),Byung Lee,"Introduces the field of data mining, including general data features, techniques for data preprocessing, data warehousing, and data-mining methods for mining frequent patterns, associations, and correlations; data classification; cluster analysis; and outlier detection. Prerequisite: Computer Science Graduate student.",,,,"Prereqs enforced by the system:
+Computer Science Graduate student",Spring 2026,,['Computer Science Graduate student'],False
+CS 6391,,Master's Thesis Research,Varies by section,,,Research for the Master's Thesis.,,,,Varies by section,Fall and Spring 2025,,[],False
+CS 6392,"Section B, CRN 96482",GPU-Accelerated RGs,3,,Jason Hibbeler,Research for Master's project. Prerequisite: Department permission.,,,,,Fall 2025,,['Department permission'],False
+CS 6392,"Section A, CRN 96281",Master's Project Research,3,,David Jangraw,Research for Master's project. Prerequisite: Department permission.,,,,,Fall 2025,,['Department permission'],False
+CS 6540,"Section A, CRN 15784",Deep Learning,3,TTh 1:15pm-2:30pm UNASSIGNED (1/12 to 5/1),Safwan Wshah,"Introduction to Deep Learning algorithms and applications, including basic neural networks, convolutional neural networks, recurrent neural networks, deep unsupervised learning, generative adversarial networks and deep reinforcement learning. Includes a semester team-based project. Prerequisite: CS 3540. Cross-listed with: CSYS 6540.",,,,Prereqs enforced by the system: CS 3540,Spring 2026,CS 3540,[],False
+CS 6550,"Section A, CRN 13301",Usable Privacy and Security,3,TTh 10:05am-11:20am UNASSIGNED (1/12 to 5/1),Yuanyuan Feng,"Covers human factors in privacy and security, usability problems in today's computer security and privacy mechanisms, as well as the human-centered empirical research methods to understand and address these usability problems. Students will work individually or in small groups toward semester-long course research projects. Co-requisite: Knowledge of STAT 1410 or equivalent.","From security breaches to data leak, from stolen passwords to data misuse. For all the security and privacy problems we face today, technology alone cannot provide us satisfactory solutions. Human factors play an essential role in ensuring privacy and security in today’s computer systems. This course covers human factors in privacy and security, usability problems in today’s computer security and privacy mechanisms, as well as the human-centered research methods to understand and address these usability problems. 
+This course has a strong focus on empirical research methods and introduces human subject research in computing and engineering fields. Students will gain skills and experiences to design and conduct rigorous empirical research aimed at understanding, evaluating, and/or solving usability issues in computer privacy and security systems. It is particularly suitable for students who are interested in the human aspect of computer privacy and security and who want to strengthen their research skills. Students will work in small groups towards their course research projects.
+Prerequisite: Knowledge of STAT 1410 or equivalent.","Students are expected to read required course materials before class, participate in class discussion, complete individual/group assignments, and engage in various classroom activities. There will be in-class quizzes and one summative exam.
+Depending on the instructor’s availability, graduate students may continue working on their research projects after the semester under the guidance of the instructor, either as their thesis projects or summer research projects with publication outcomes.
+
+Course Materials:
+Textbook available as ebook from UVM libraries
+Primary textbook: Lazar, J., Feng, J. H., & Hochheiser, H. (2017). Research Methods in Human-Computer Interaction. Morgan Kaufmann.
+Other required readings
+Peer-reviewed research papers in the area of usable privacy and security, which will be made available via BrightSpace
+
+
+Evaluations: 
+Student grades will be based on: (1) in-class quizzes based on required readings, (2) homework assignments, (3) one summative exam, (4) class participation, and (5) multiple assignments for the course research project including written assignments and presentations.",,Prereq: Knowledge of STAT 1410 or equivalent,Spring 2026,,['Knowledge of STAT 1410 or equivalent'],False
+CS 6990,"Section B, CRN 95647",Computer Security Foundations,3,TTh 4:25pm-5:40pm in VOTEY BLDG 305 (8/25 to 12/5),Chris Skalka,Subject will vary from year to year. May be repeated for credit with Instructor permission.,"In this course we will study mathematical foundations of computer security. We will consider the CIA triad- Confidentiality, Integrity, and Availability- from a formal perspective, and how these can be precisely defined and characterized in systems. We will focus especially on Information Flow theory and associated mitigation methods.","Recommended prerequisites are background in data structures and algorithms (similar to CS2240), theory of computation (similar to CS2250), and ideally some background in programming languages design (similar to CS3250).","Homework for the course will be written assignments, that will generally be distributed every 10 to 14 days. All homework solutions are expected to be an original, individual effort. The class will include a Midterm and Final Exam.",,Fall 2025,,"['Instructor permission', 'background in data structures and algorithms (similar to CS2240)', 'theory of computation (similar to CS2250)', 'background in programming languages design (similar to CS3250)']",False
+CS 6990,"Section A, CRN 95645","Mind, Morphology, and Machine",3,MW 8am-9:15am in LAFAYETTE HALL L411 (8/25 to 12/5),Joshua Bongard,Subject will vary from year to year. May be repeated for credit with Instructor permission.,,,,Cross-listed with CSYS 6990 A; Total combined enrollment: 15,Fall 2025,,['Instructor permission'],False
+CS 6990,"Section A, CRN 15232",Quantum Computing,3,TTh 10:05am-11:20am UNASSIGNED (1/12 to 5/1),Jennifer Paykin,Subject will vary from year to year. May be repeated for credit with Instructor permission.,,,,,Spring 2026,,[],False
+CS 6993,"Section A, CRN 96345",IS:MechanisticInterpretability,3,F 12pm-12:50pm in ON CAMPUS SEE NOTES (8/25 to 12/5),Juniper Lovato,"A course which is tailored to fit the interests of a specific student, which occurs outside the traditional classroom/laboratory setting under the supervision of a faculty member, for which credit is awarded. Offered at department discretion. Prerequisite: Instructor permission.",,,,,Fall 2025,,['Instructor permission'],False
+CS 7491,,Doctoral Dissertation Research,Varies by section,,,Research for the Doctoral Dissertation.,,,,Varies by section,Fall and Spring 2025,,[],False
